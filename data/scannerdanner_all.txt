@@ -1,0 +1,1150 @@
+ZYMG-u0pWeQ\t2020 Jeep Cherokee - No Com with Active Grill Shutter (U11E9)
+6rNPXtCO5vc\tOpen or Shorted Network? Maybe it's the Module??
+fvLwRGbV1fc\tHow to Manually Test a Computer-Controlled EGR Valve!
+0rQX0od6u5c\tThis Can Be Deceiving! (Kia Optima EVAP LEAK TESTING)
+98lyvpPonxQ\tEvery Auto Technician Needs To Learn This! (Misfire Diagnostics)
+JXyJh2kwZ_Y\tWhat Caused This New Fuel Pump To Fail??
+ZX0BTgp2NJs\tYou Should NEVER Use a Test Light Here... Right?
+NlyX7jqKp_c\tThis Confuses SO MANY Technicians!
+izc8DZD3mRE\tWhen a Brake Light Diagnosis Goes VERY Wrong
+nPMEFNZ3EZA\tNo Diagram, No Flowchart, JUST 3 SIMPLE CHECKS
+rE9MH-Kd5u0\t3 ECMs and a Boatload of Parts… Can We Fix This No Start??
+Lyt9VaKVWVE\tCheck THIS Before Condemning an ABS Module - 08 Dodge Challenger
+A5LbaclTYTE\t1988 Firebird Long Crank Diagnosis — 3 Separate Problems Found (Part 2 of 2)
+aSB1ygMH4KU\t1988 Firebird Intermittent Long Crank Diagnosis Did NOT Go Where I Thought! (Part 1)
+lf0CznLcmQU\tTeaching My Son Why “New” Parts Mean NOTHING | EVAP Diagnosis
+Kg-jsTgyQKM\t2019 Ford F-250 Horn Diagnosis — Training My Son on a BCM-Controlled Circuit
+MM7LfSFSdLg\tBad Block Ground Diagnosis Using VOLTAGE DROP TESTING
+gsDK17bD4mg\tDeveloping a Young Auto Tech (my son Beau Danner)
+5ivaMzLkLOA\tWhy Would They Change A Module For This??
+N2MOEItX4oY\t2019 Hyundai Tucson Misfire Troubleshooting (with Beau Danner)
+XjphwrpLUlA\tTeaching My Rookie Tech Son an EVAP Leak Test
+lLjK-9rq6L8\tI Wrecked My '78 Power Wagon...
+cERMHMoxR98\tSubaru Intermittent P0028: Can We Duplicate It? NOT with the Flowchart!
+vhTHnpeqeHI\tLow Power Diagnosis: Why the In-Cylinder Pressure Test Was Right | Part 3
+pdSV03a3WpQ\tLow Power Diagnosis: Good Cam/Crank Doesn’t Mean Good Timing | Part 2
+8q1OaCYe8bY\tLow Power Diagnosis: Fuel Delivery or Exhaust Restriction? | Part 1
+GRK4V535C3o\tIdle-Only Misfire Diagnosis — Engine Mechanical or Ignition Fault?
+JaDKpb9N4hw\tCharging System Issue or Parasitic Drain (Comeback?)
+hXy40i0SlWY\t“Battery Keeps Dying” — Parasitic Drain Test That Wasn’t
+Lf6D8itG-mk\t2016 Chrysler 200 - No Crank Diagnostics
+04LsdKmRRhw\tNew Throttle Body, New Module, Same Problem...Now What?
+aqdVE0is4YI\tWhy Six Fuel Pumps Didn’t Fix This Car (Voltage Drop Under Load)
+xHDF1Betkf0\tDiagnosing a Ford 5.4 Cam Timing Issue — Before You Tear It Down
+3vGEPzwg50c\tThis Is What Was REALLY Causing the Parasitic Drain
+DF84CjP9l8s\tI Can’t Believe This ECU Driver Survived... (O2 Heater Circuit Testing)
+1XO5eP_hLdY\tThis is Game Changer For Parasitic Drains
+58k2sagV1ZI\tHow Jumper Wires & T-Pins Can Kill ECM Drivers
+cg4suJ9jvoc\tOld Examples. Modern Diagnostics
+SfjJ6FR2Tjc\tTransistor Drivers and Output Solenoids Circuit ID Testing
+S2h04H-nmlA\tInitial Tune & First Start with Holley Terminator X (483 Stroker)
+VesAgQui2fA\tThey've Been Dealing With This For 2 YEARS! - Is It Fixed?
+gPT_E84zYNg\tThey've Been Dealing With This For 2 YEARS...[Part 2]
+ult80UQVJwU\tThey've Been Dealing With This For 2 YEARS...
+98_S0z3J2dQ\tBad Module or Bad Testing? The Diagnostics You Need to Know
+L1R8vGHxMG8\tTHIS is why I don't trust new parts!
+RuCDEpLZH0g\tOpposite Fuel Trims: Bank 1 Negative, Bank 2 Positive [Final]
+iguLgNhavAs\tOpposite Fuel Trims: Bank 1 Negative, Bank 2 Positive [Part 2]
+J4-5eAsbgCw\tOpposite Fuel Trims: Bank 1 Negative, Bank 2 Positive
+62YhcrgjA5I\tMopar Charging System Testing [External Voltage Regulator]
+b5S9SPjdNxs\t2006 Ford E350 6.0L Turbo Diesel [DID WE FIX IT?]
+NzA4mJL69DU\t2006 Ford E350 6.0L Turbo Diesel [Bad ECM/TCM and BCM?]
+h9jM9212O4E\tHolley Terminator X EFI - Wiring Harness Installation and Suggestions
+FWsoAay9ec8\tThis Car Still Doesn't Start! [What did I miss?]
+u_rJZ2bGMsY\tP0133 Oxygen Sensor Slow Response - how many of us just throw a sensor at this code?
+itcifPviwJE\tLean Condition Caused by a Stuck Open Purge Valve [P0171]
+GereOBzHOws\tCOMEBACK! - 2017 Chevy Trax Blower Motor (Part 2)
+d_Jwfc0r0zQ\t2017 Chevy Trax Blower Motor Circuit Troubleshooting (Part 1)
+vKagaBSB2qk\tNo Start After Severe Misfiring - TESTING GUIDE!
+JKOgIR9LrTE\tHolley Terminator X Universal In Tank Fuel Pump Installation [78 Dodge Power Wagon]
+sBueOct0qXY\tA/C Compressor Clutch Circuit Testing [All Cars] + Recharge 
+S9unskV242I\tIdle Speed Problems After Replacing Battery
+J_KBvNbgM6w\tMisfire Diagnostics on a Waste Spark Ignition System (Ford F-150)
+XMxi_ryoS0o\tI changed a part based on a code [what do you think happened?]
+KmXpyPbvPG0\tMisfiring Cylinder - Is It Spark, Fuel, or Compression??
+JAnbqU7Em9E\tQuick message about my video editor [Caleb Danner]
+omqPoEgfiQc\t85 Celica 22RE - Intermittent Low Power Condition [Part 2]
+vNrqO0sEOxU\tThe Tool Every Diagnostic Tech Needs!
+PXU5F-q6gTI\tNever Forget The Basics (Kia No Start)
+ROqBckMBXf0\tIdentifying a Compression Misfire
+lnG4Jl92TEw\tChevy Corvette Cold Engine Misfire [Part 2]
+XRk5LA2nFD0\tChevy Corvette Cold Engine Misfire [Part 1]
+1e2OOykM8t8\tNo Start Basics  -  What Are We Missing??
+l0XSPyDLHVY\tAlways check your meter before walking that path!
+NIv9_Jdfrm8\tMisfire, Rich Condition, Long Crank Time - Where Do We Start?
+7kgnwJX40C4\tWhy Won't This Jeep Start?? [FINAL UPDATE!]
+Hjgs_8wX6Ks\tWhy Won't This Jeep Start?? [Part 2]
+glYGv3CyVWU\tWhy Won't This Jeep Start?? (Part 1)
+KqONttA6MoE\tNo Spark Testing [Ignition Coil, Module, PCM or Wiring?]
+uDLGE8kDb5s\tNo Spark Testing - Shorted Ignition Coil?
+koSnoZMBQss\tTesting A Starter Circuit!! [Test Light vs Voltmeter] #uActivate
+y8yrvved9Pk\tABS Wheel Speed Sensor Circuit Code With GOOD SIGNAL?
+cFBWQ7sLi-s\tHolley EFI Terminator X Stealth 4150 Unboxing!
+lRZW7flH0wo\tHow Would You Charge For This?? [Intermittent Lean Condition]
+p68w9CJG00g\tShorted Ignition Coil Primary Winding [DON"T LET THIS FOOL YOU!]
+VE1MQWfelIo\tRoad Trip to Pick Up The 483 STROKER! [Dyno Numbers Too!]
+yn01o1dWFjA\tCan a Restricted Injector Cause a Rich Condition? [an SD Premium case study]
+xvPa5zaD2Y8\tNegative Fuel Trim Bank 1 - Positive Fuel Trim Bank 2
+i5_OSaLAcH4\tABS Wheel Speed Sensor Wiring Repair Comeback [What Did I Do Wrong?]
+Zyh0YY_5XC4\tUsing a Topdon Jump Starter to Bail Out My Mom
+mKXMFaQekkQ\tYouTube is dubbing my videos in other languages!
+DbP3Bq5qw84\tNo Start, No Spark on a 96 Nissan 2.4 [field trip with my class at Rosedale Tech]
+5kKc77H6RGg\tToyota Camry - Intermittent No Start, Backfiring, Runs Good When it Starts [Part 2]
+Tro9M12LoQw\tToyota Camry - Intermittent No Start, Backfiring, Runs Good When it Starts [Part 1]
+EVdmlROM_l4\tWarning on Modifying Your Air Intake System
+OvcOA8JxBfA\tLet's Apply Our Fundamentals to this Fuel Injected QUAD!
+ZdRQpj6YVXw\tNo Start on a Harley-Davidson [Using ONLY Our Fundamentals!]
+k3pkH67kBeI\tWiring ID without a diagram [Circuit Tests on a 4-wire TPS]
+juWWAu8xGuk\tNew SD Premium video is up! [Not A Typical Low Power Condition]
+wTHcxIhPWjI\tUsing a Diode Scale on a DMM to confirm Circuit Integrity
+yf_ae6j_MbY\tShould I Make a Bunch of Different Test Lights to Load Circuits?
+_1nBwBU8rvA\tA/C Compressor or Clutch Failure [Part 2]  - Compressor Replacement, Evac, Recharge
+LH5A0QPC31k\tA/C Compressor or Clutch Failure - How To Tell [Part 1]
+tRUDnaJMnPQ\tVoltage Drop Testing With A Test Light? [Part 2]
+gtuTKEiOwKQ\tOhm meters suck most of the time
+kTW68s5vqIg\tVoltage Drop Testing with a Test Light? [Part 1]
+VzYoosnx9r8\t2018 Chevy Malibu P1101, P2138 [Don't Always Rely On a TSB!]
+2n1kQBSHb7A\t2010 Sonata No Start [What are we missing?]
+ErbK7RqNhXw\tActive ABS Wheel Speed Sensor Testing and Wiring Repair [09 Silverado]
+YN9kWfvb-KQ\t85 Celica 22RE - Intermittent Low Power Condition [Actual vs False Lean O2 Testing]
+8M7BSRGc-lY\t85 Celica 22RE - Cold Start Injector, ECT, TPS, VAF, IAT Testing [Beau's First Time Driving a Stick]
+buAygLgsRpk\tScannerDanner is Dan
+tqnNsFdifSE\tIntermittent No Start [Magnetic Type Crank Sensor Testing - ALL CARS!]
+n9sUp7xM9U8\tCalling a Bad Module is Never Easy! [SD Premium promo]
+FcLoxQyuIVk\t1985 22RE First Start After Replacement Engine [Lots of Problems!]
+29Jqu2diBAU\tHelp us help Pete Graves @CPMotorworks [SD Charities Inc]
+10UODSXk7b8\tWeirdest Plugged Cat Ever??
+cLvg1aec16M\tWrong Wiring Diagrams Suck! [Aftermarket HID Headlights]
+KD2VFAn8fWo\tTopDon TopScan Pro [You Won't Believe What This Can Do!]
+x7E0AK245Ko\tEngine Dies While Servicing A/C System [Who Pays?]
+KevJNoaywHc\tMisfire Diagnostic Fundamentals [98 Toyota Camry]
+dnGW_q3GGOA\tWorking on Beau Danner's 85 Celica [Fuel Pump Diagnostics]
+TW3Px3aCF40\tJeep Patriot Setting Crank Sensor Code P0335 P0339 (2 Different New Sensors)
+f2p0VX9eYYg\tIntermittent Low Power/Lean Conditions [2006 Ford F150 Electronic Returnless Fuel System]
+iONlk70p8qY\tSwitch Input Bypass Testing - LED or Incandescent Test Light?
+7hLyun6fSiA\tKeyless Entry Antenna Fault! [2019 Ford Expedition]
+4EfuswtgwGs\tMaking the Call on a Suspected Bad Module is Never Easy
+Ec8apzhXacI\tEVP Sensor Open 5v Reference Circuit
+lec5R2hOlxg\tCan an Industrial 413 Wedge be bored to a 440?
+FPtS70vRg3E\tUsing a Test Light to Bypass a Switch Input Signal
+ZG8rMJwILxA\tHow to Test for a Stuck Open Fuel Pressure Regulator! [A ScannerDanner Premium Lecture]
+b84yq1EJta8\tHow To Read/Dissect an Engine Computer Wiring Diagram
+WHg27NFXa40\t2006 Cadillac DTS Shorted 5v Reference Circuit
+Z6ulAqqjrzs\tIt Took 2 YEARS to Duplicate This Fault...
+1hWiqXFb-XM\tMaking a MOPAR Ballast Ignition System Fire on a Workbench
+t5ze5UBjplU\tWiped Cam Lobe/Lifter After 4000 Miles?
+4-BVb8Z6am0\tHow an Ignition Coil Works!
+M7fI-Vo8pAA\tTopDon Phoenix Lite 2 (I want one!)
+N3lsCKCFjTY\t2009 Chevy Silverado Troubleshooting an Intermittent Crank Sensor Fault
+QvzhH8iXUL4\tWhat's a successful shop look like?
+ryEh7o3pgCQ\tI tore my ACL in a hockey game but God is still good!!
+fCfqGKw6EMg\tFord Coil On Plug Misfire Diagnostics [E-350 V-10]
+pRm5egbWDiQ\tAn Automotive Camp For Kids?
+CZu_gQ3mUxg\tI am not a smart man
+5i-vaXSeukE\tTroubleshooting an Intermittent Compression Problem
+bCGfuhZ1VV4\tHelp Me Help Others [SD Fund at Rosedale Tech] - You Get Something Too!
+sIUr8w2kl5Q\tBeing Accurate and Charging Accordingly!
+lho1U_k4GIs\tQuick Head Gasket Test! (chemical block tester)
+xCuLRMVhmnU\tParts Stores "Free Diagnostics" and Garages Charging Yet Doing Nothing Better
+iqEO6CvsSjs\tThe Advantage of a Bidirectional Scan Tool
+9GVCcY5E0BM\tIt's not all bad, is it? I still love this field!
+rYcEbyyJl8g\tWhere are all the good Diagnostic Technicians?
+R6tztnUMMsE\tTesting For a Bad Head Gasket [Chemical Test Kit]
+nSBkufRSsTY\tWhat's new on SDP and meet Duck, my new boxer puppy!
+NYfE3qWHncQ\tWhy Does A Dirty Throttle Body Cause Stalling Problems
+ciZovlKeK4o\tBad New Parts and the Importance of Knowing Circuit Design
+sdqB3VQABSA\tThe New AESwave uActivate is Finally Available!
+etP96LrrBNA\tFord EEC IV No Spark Diagnostics Class - Part 3
+GJ9O8pTkK4w\tNew Fuel Pump - Still No Fuel Pressure - Now What? [2012 Ford E350]
+8yIaU7eh_Ic\tNew Video Player For SD Premium
+Fsm_MZJo5jo\tSD Charities: Winner announcement for the FLACA Accelerate Conference
+CieIPtiiW3Q\tAuction Truck MISSING FOOTAGE!
+hhbmJprhino\tNo Start, No Crank - Suspected Bad ECM - [Auction Truck]
+ZzsKeiKEdco\tSD Charities Training Event Giveaway
+n6zq-C1P49s\tFord EEC IV No Spark Diagnostics Class - Part 2
+0cE7ADS6HxA\tTraining Pays!
+V74koldoSCc\tFord EEC IV No Spark Diagnostics Class - Part 1
+bYGjUcTmlbU\tCAN Diagnostics Can be Challenging!
+EzHMaJqB80c\tChevy Silverado No Com with Air Bag Module
+k-9oj5ZvSDU\tI owe you an apology. "Wrenching" is not mindless work!
+8ZJiqGE5doU\t2001 Cummins 8.3L ISC CAPs Injection System - Faulty Engine Speed Sensor
+3x6nD6-oDqc\tCircuit Integrity Testing [open and short circuit verification without an ohmmeter]
+df6-BjEK-Bw\tA/C Repair NIGHTMARE [Compilation]
+P3kAcBlky_U\t2001 RV Cummins 8.3L ISC CAPs Injection System - Low Power/Stall/Intermittent No Start
+4cj1RMDmXZE\tThis Field is Amazing
+9TyGIlq2CXc\t2011 GMC Sierra MAF and IAT codes [New MAF Installed]
+b63CuwZ8Ns8\tSDP Day 8 Part 1 - Pull-Down Circuit Review and Bypass Testing
+urRYph4FQuE\tVisiting RILEY'S REBUILDS and Buying a New Carb [Edelbrock 1906 AVS2]
+r6ih_6MMIpA\tSuper Mario Diagnostics/SD Premium Exclusive
+3Ab-fohxyo8\t94 Firebird VAT System (vehicle anti-theft)  Operation/Troubleshooting/Bypassing
+GQvLHQVtC0Y\tNo Crank, Starting System Troubleshooting [Compilation of Common Faults]
+MC4SbkxwbDU\tVoltage Drop Testing an Ignition Coil Ground Circuit
+p2aAe_PzMLg\tSecond Worst How To Car Repair Video [By Caleb Danner]
+uKCqSA5RK6c\t$2.25 Million Donation to Rosedale Tech from #1 Cochran
+SBpmTZzIn4M\tDiagnostic Fees [What Is The Standard]
+1VejVImmkXk\tBilling For Diagnostic Work On Problem Cars - Our Path Moving Forward
+yRxtJjW3xQU\tCharging For Diagnostic Time - Can We Bill a Customer For "Research"
+yQoujMD0iiw\t1978 Dodge Power Wagon, 413 Wedge [Let's Go For a Ride! ]
+U6IQTYPhUu4\tTeaching the Next Generation of Technicians
+IPEq53z2iE4\tRestricted, Clogged, Plugged Exhaust System Quick Test
+3ARUlTAy2EQ\tGround Side Switched, Duty Cycle Controlled, O2 Heater Circuit Testing [an SD Premium Class]
+xWsMeSFsAxY\tWorst How-To Car Repair Video [by PlannerDanner??]
+qYVXyiW8oLY\t2013 Dodge Ram - No Horn/Steering Wheel Switch Functions - LIN Bus Fault [U1009-00]
+_z6HoW4OiD8\tMAF and Wideband O2 Sensor Testing for a P0172 [Rich Condition]
+aB53SiPT640\tIgnition System Testing - Primary Current [Audi A6 part 2 of 2]
+qRvWefjb0F4\tIgnition System Testing - Primary Current [Audi A6 part 1 of 2]
+ORH3r9d3fSM\tGas Direct Injection System With Intermittent Low Fuel Pressure
+RiC8OaSXMs8\tNo Spark Troubleshooting [Mopar Electronic Ignition with Ballast Resistor]
+DMKTSGbE2eM\tHow To Read Wiring Diagrams  [an SD Premium Class]
+g90d4_NnZMk\t2014 Ford F150 Passenger Temperature Blend Door (Cannot Change Air Temperature)
+14BtboH4v0M\t2016 Fiat 500 Electric Parking Brake Intermittently Sticking On
+Zsso-rNd4zQ\tMAF Sensor Testing- What REALLY Matters
+Dot9NUXhzpc\tNo Start No Crank Diagnostics - Field Trip With My Students @RosedaleTech
+lVHQlpeFj5c\tA Smoked ECM AND a Jumped Timing Belt? [VW Passat No Start - an SDP Case Study - Part 3 of 3]
+tAKnNSQQsbk\tSD Premium Navigation and Where To Start
+-nVe0CEZ-_k\tVW Passat No Start - an SDP Case Study (Part 2) - [Bad Sensor Ground]
+iPeXkERtCDI\tVW Passat No Start - an SDP Case Study (Part 1)
+tQJ8V934SAY\tHow To Make This Field Better For Yourself -  interview with Super Mario Diagnostics
+z-jpEtiGFXs\tTopdon Phoenix Max [What's In The Box]
+_xIFdo11SKg\tABS Wheel Speed Sensor Diagnostics
+3plr-FsLwCk\tTesting Ignition Coils and Fuel Injectors (Intentional Shutdown)
+F4S6qp-w4rY\tRosedale Technical College: An Introduction to ScannerDanner’s Alma Mater
+450-ZF2dwd0\tDriving to Tennessee To Buy a 1985 Toyota Celica
+JYU8f3kIs70\t2014 Malibu Stalling/Misfire/Idle Lean Condition/Cat Codes/Billing For Diagnostic Time
+c6PPGXTd7iQ\tFull Time DANA 44 Locking Hub Conversion [Part 2 of 2]
+BlrGTHAD2CY\tA/C Repair Lasted One Day [What Did I Do Wrong?] - Part 2
+nCTgcal4N94\tA/C Repair Lasted One Day [What Did I Do Wrong?] - Part 1
+_BYt0Z-YhSk\tFull Time DANA 44 Locking Hub Conversion [Part 1 of 2]
+awO1uppI0ck\tTroubleshooting a Bad TCM - CAN and Sensor Ground Circuit Problems
+5PmFBWVc6pk\t2015 Honda CRV A/C and Blower Motor Troubleshooting
+ZDixnRwH7N4\t2015 Chevy Express Intermittent Misfire - Injector Circuit Codes [Part 2]
+eb85Db8g2B4\tTopdon Phoenix Repair
+wcifwQKDUrE\t2015 Chevy Express Intermittent Misfire - Injector Circuit Codes [Part 1]
+nhMACYc8Vdo\tWe Don't Work For Free [Charging Diagnostic Time]
+mkZKE9wZefI\tParasitic Drain from CAN-B Staying Active-Transmission Problems Part 1 (an SD Premium Preview)
+aN-Xni8Sg-4\tA/C Leak Testing, Repair, Evac and Recharge (ANY CAR!)
+R5u4mKFbjNY\t2007 Toyota Sienna Low Power, Fuel Delivery Problem, Dual Speed Pump (P0171, P0174, P0101)
+p5KxBM6oqRM\t97 Honda Intermittent No Start, Wipers, Turn Signal and Cluster Problems
+rNHEB_ONgNQ\tIntermittent Problems and How to Charge For Diagnostic Time
+PS-xqoXRiXc\tVoltage Drop Testing a Starter Motor (Quick Tips)
+s8B6jAq6RnU\tQuick Test For Identifying a Bad Ignition Coil (Toyota Tundra)
+P-P2xt2fti0\tLab Scope Sample Rate - Why it is So Important
+_xvddRJmkAA\tBad Starter or Bad Wire? - Starter Tests Everyone Can Do (family intro)
+WoaD_hS8NWQ\tMeeting a Subscriber on a MOUNTAIN! [and Visiting the Best Shop in Ridgecrest, CA]
+MRE7jKXlwco\tBest (so far) BUDGET Bi-Directional Scan Tool - For DIY and PROFESSIONAL (Part 2 - Field Testing)
+j4phSWI6Wwc\tHybrid No Start and Electric Water Pump Diagnosis
+jhOJC3NTU08\tHow To Sell Diagnostic Time
+QP8f1K-EigA\tIntermittent No Start - Universal Testing Methods (Chevy 6.0L)
+pONgMGw87Aw\tVintage Fuel Gauge/Sending Unit Testing [Dodge Pickup]
+eVU-03t_mzU\tBest (so far) BUDGET Bi-Directional Scan Tool - For DIY and PROFESSIONAL
+aHHdgLejOBQ\tFord Explorer Setting Multiple Output Circuit Codes - New PCM (Part 2)
+jJKcdBW2DqE\t78 Dodge Power Wagon - Parasitic Drain - Choke/Backup Light Wiring - Diagnosis and Repair
+b_nlious8xc\tFord Explorer Setting Multiple Output Circuit Codes - New PCM (Part 1)
+yw1-zlFuXZ4\tMultiple Problems/Poor Customer Communication (New Fuel Pump Installed Follow up) P2
+9OR2yaV-3VM\tGetting My A$$ Kicked By an 86 Mustang (Part 2)
+sinSKNwZrEw\t86 Mustang Part 2 Coming Saturday #Shorts
+Zbqwt0cbBeY\tFord EEC IV Distributor Pick-up or Faulty Ignition Module - Part 2
+5G5_hYiwaEs\tFord EEC IV Distributor Pick-up or Faulty Ignition Module - Part 1
+V_ASavBZYMY\t86 Mustang Update/Family Emergency
+JUv3D2Q21mQ\tGetting My A$$ Kicked By an 86 Mustang (Part 1)
+USQ-_T0JeKU\tIdentifying a Stuck Closed Fuel Injector (Quick Tips)
+PvAcjWXJu94\tMultiple Problems/Poor Customer Communication (Low Power, Long Crank, Stalling P0171/P0174/P0121) P1
+DZQyU0gKB10\tI Bought My Dream Truck [Finally]
+Zi58_fSCu9s\tJeep Grand Cherokee - Long Crank Time - P0335
+wQRCChh-7FY\t2013 Dodge Caravan Purge Valve Circuit Code P0443 (New purge valve) Part 2
+JG-RJziFOuw\t2013 Dodge Caravan Purge Valve Circuit Code P0443 (New purge valve) Part 1
+Sr7woeza8to\tTesting Transmission Shift Solenoids - (P0700, P0974)
+v3QAm7E-5io\tHonda Accord Ignition Misfire - Diagnosis & Repair
+ZIiN2j_Xu-A\t"Comeback" - Same Code Different Problem - Who Pays?
+OozVxcVD3jM\tGDI Misfire "Comeback" What Did We Miss?
+CMt9AgwuZSg\tA 2018 SD Premium video - Ford F150 4.2L Waste Spark Ignition, One Coil Not Firing
+yZXczaOasxE\t2011 Mitsubishi Endeavor Misfire or TCC Shudder? Identification and "Fix"
+3n10xQNBhTk\t"Homecoming" - Caleb Danner
+llYFDC5-sa0\tFord EEC-IV No Spark Diagnostics
+DrmNpe3OwsY\tHonda B-CAN Network Diagnostics (single wire design)
+lDMMNcWyTvw\tHyundai/Kia 2.7 Jumped Timing Belt Symptoms and Diagnosis Part 2
+i2mot-mUTp4\tHyundai/Kia 2.7 Jumped Timing Belt Symptoms and Diagnosis Part 1
+eW_YZkdJ9po\tReading trouble codes is NOT a diagnosis "Don't be a parts changer"
+tt_gaoHDAfc\tTroubleshooting An Intermittent Idle Only Misfire (Dodge Durango) Part 2
+bVqJtnGHfi0\tTroubleshooting An Intermittent Idle Only Misfire (Dodge Durango) Part 1
+zBUJ2HxuyGk\t2019 Ford Expedition New Key Programming #AutelIM608
+XlM0rgio4U4\tStuck Open Fuel Injectors (GDI) Part 2 (cause and fix)
+NBqkJG500yk\tStuck Open Fuel Injectors (GDI) Part 1 (symptoms and troubleshooting)
+ZhC8MVpSUuU\tPulling codes and changing parts is not a diagnosis!
+te_kSrMioGs\tWelcome to ScannerDanner
+ISucVLxqgT4\tCould a P1351 be a False Code? (older GM trucks and vans)
+ruSLlPK-FJw\tHelp me raise money for Word of Life Panama (Covid Shutdown)
+CPsvgbCOdvo\t2007 Honda Accord Wideband O2 (Air Fuel Ratio Sensor) Testing
+MRz7A4PPt6Q\tFuel Pump Pressure Diagnosis (return type system)
+8cQqz__jzPY\t1992 Cadillac Fleetwood - Misfire, Rough Idle, Poor MPG (Shorted Injectors)
+Q8ZwxJYkYnc\tAn SD Premium lesson on Bias Voltage
+9e1oibvFJBI\tA/C Leak Test, Repair, Recharge Part 2 - Caleb's Jeep
+bXucBQqqOC0\tA/C Leak Test, Repair, Recharge Part 1 - Caleb's Jeep
+2-A27Pofrp8\tA/C Leak Test, Evac and Recharge (ALL R134a Systems)
+-J_MAN4sg8c\tFlorida Trip To Buy A Rust Free 86 Nissan 300zx
+NrXR6ZYWbwA\t"It's a tool thing" thank you!
+YXDG-mhG_XY\tRV Alternator Overcharging (Prestolite - Leece Neville, 2001 American Tradition)
+ifYzPsoncd4\tAir Bags of Death (promo)
+X2cJd6OTeHw\tCircuit ID and Integrity Testing Part 4 (SD Premium)
+81XYGX8GpXY\tUsing a test light/life lesson from SD
+VVhOGHmKBmk\tWhat else got cooked in my RV? (bringing her home) Part 2
+10h2uDJ-zg0\tUsing the Autel Ultra lab scope (Relative Compression Test)
+pINVrwnUOew\tStupid EVAP Leaks
+uupv5QoIKeA\tTurn Signal/Parking Light Circuit Bad Ground Symptoms and Repair
+fv3MD-itCIw\tGM CAN Bus Wiring
+sfd7cX4FnI0\t2014 Nissan Versa P0705 Transmission Range Sensor "A" Circuit (PRNDL Input)
+j0HAmkcvwj8\t"The Ugly Cobalt" and SD Premium Case Study (Quick Tips)
+lHnb8ILjQXg\tAIRBAG SAFETY
+N_MMqIRIVQE\t2007 Hummer H3 COMEBACK!
+u_TG9Tubvpg\t2007 Hummer H3 3.7 Intermittent Limp Mode, APP and U-codes, No COM + EVAP Vent Solenoid Fault
+7UYY3uqi0IM\tControl Testing Ignition Coils (Part 3 Of An 8 Part SD Premium Series)
+SPp9LAHlOuI\tNo Modules Were Hurt in the Making of This Video
+c5i_ljBJoiw\tCaleb Danner on Sundays (Simply Gospel cover)
+Lx80avW6s24\tSomething cooked my TCM (3000MH Allison Transmission, No Display, No Crank, No Start)
+ayqn30uJrZY\t2006 Nissan Altima Sticking VVT Actuator P0011
+rLTMYAvpJm8\tDamn Intermittents (2014 Buick Encore 5v Ref Circuit Short)
+Ie6sBywaUhU\tIntermittent no crank - starting system troubleshooting (good starter)
+UsPkMmXVbLA\t2020 Recap
+1BAuSvZDQjE\tParenting 101 with ScannerDanner: learning your fundamentals to ensure your child's safety
+9ETVzE90DVo\t2013 Ford Expedition Temperature Blend Door Diagnosis
+dfAMDODbDEw\tPONTIAC G6 BAD GROUND
+l9pK57MbTzE\tHow ScannerDanner Got Started
+Jpgmr0Zh5qU\tBOSCH ADS 525X (Misfire Case Study)
+8YD4NBset_Q\tFather and Son 4 Day 3 Night Backpacking Trip to DOLLY SODS WV
+XJsQ_-3Q9WU\tScan Data Can Lie To You!
+ohTxSZ-fCgU\tCaleb Danner reminding us of what truly matters
+PoL_pl9LDz0\t2003 Jeep Grand Cherokee Intermittent Stall, No Start, No Com
+3xVCHoWZW-A\tSD behind the scenes
+-4gXrLgUrUE\tHow to find a shorted ignition coil with a lab scope (Quick Tips)
+SdVgfj6UAMI\tCircuit Identification and Integrity Testing Livestream Class (previously recorded)
+zvTPKE_TMPU\t2005 Mazda Miata Engine Fuse Keep Blowing (Short to Ground Testing Fundamentals)
+f29NOB9X0mA\t1992 Corvette Misfire, Melted Cats, O2 Testing (Part 2 of 2)
+FOwwFIWQhsQ\tStuck Open Fuel Injector Causing WHITE Smoke From The Exhaust (Quick Tips)
+Zu9NPVqKnU0\t1992 Corvette Misfire, Melted Cats, O2 Testing (Part 1)
+bEmzih9MV7o\tHow to perform a compression test with a lab scope (Quick Tips)
+RpvIRszQSsg\t2010 Ford Fusion A/C Clutch Intermittently Cuts Off (full charge)
+lPBqbupsLtI\tLearning more functions of the Autel Ultra on a No Start No COM Case Study
+jnePiHa4VFY\tAutel Maxisys Ultra Unboxing/2016 Chevy Cruze P0171 From Torn PCV Diaphragm
+BiOVupjPtXY\t2009 Buick Enclave NO COM To Fuel Pump Control Module Part 2
+R5cbSlndPwM\tPlatica entre Técnicos - ScannerDanner Interview (Spanish and English translations provided)
+atlNxnb2MZU\t2009 Buick Enclave NO COM To Fuel Pump Control Module Part 1
+KTLmHzk_Y40\tChevy Express Van Electronic Throttle Body Problems Part 2
+5dm0QPBFHU8\tChevy Express Van Electronic Throttle Body Problems Part 1
+P2Kg5O_Vd5Y\tHow to Test for a Dirty MAF Sensor P0171 P0174 (Quick Tips)
+ipTSsmZhZxo\tFALSE EVAP LEAK CODE - Caused by an Aftermarket Purge Valve (Part 3/3)
+xSsZbloYRVg\t2008 Hyundai Elantra EVAP Large Leak P0455 - Part 2
+MOkujTER0UU\t2008 Hyundai Elantra P0455 EVAP Large Leak (Part 1)
+oNt-ELmKNZA\tAutel For The Win (factory radio Theftlock reset)
+MY-AWc6LwKs\tIntermittent no start problems from a bad computer ground (Quick Tips)
+WmWlTDZL-CA\tFIRST LOOK AT THE NEW PICOSCOPE (4425a Advanced Automotive Kit)
+1ZnrP0KKegc\tIntermittent Faults and Charging For Your Time - The Legend Of The Green Man
+Va-Ku_Njn18\t2013 Chevy Impala No Start - Ignition Relay Low Voltage Codes (P1682, P0689)
+pwuYVlCZNBI\t96 Jeep, No Start, No Com with PCM, No 5v reference (Quick Tips)
+TXKf96wqaoU\tHow to test a cam or crank sensor with a voltmeter - hall effect type - (Quick Tips)
+J5RAIRzilZ0\t2013 Lincoln MKZ Parasitic Drain/Rear Gate Trunk Module (RGTM) No COM (Part 4) - New Module Program
+PjGC4vdI_Sk\t2013 Lincoln MKZ Parasitic Drain/Rear Gate Trunk Module (RGTM) No COM (Part 3) - New Module Install
+4d221GpCCwo\t99 Subaru Impreza No Start, Ignition Coils Fire With Key On! (Quick Tips)
+vPMO4VntK_8\tImportant Channel Update (New SD Content)
+q-4U0lNBaS0\t2013 Lincoln MKZ Parasitic Drain/Rear Gate Trunk Module (RGTM) No COM (Part 2)
+0wV7VE4eDak\t2013 Lincoln MKZ Parasitic Drain/Rear Gate Trunk Module (RGTM) No COM (Part 1)
+xeoalEoygGg\tLean Condition and Misfire Troubleshooting - VW/AUDI
+jMlfPWlDSmw\tMay 29-30th ScannerDanner Training Event, Open To The Public
+1-2lqdDE0PQ\tLow Power Troubleshooting Using a Dyno - a 2017 SD Premium video
+XH74DXTPMmQ\tMisfire, weak spark, 2 years after coil replacement 94 Toyota Celica (part 2)
+4ggL2yqLZ6A\tNew SD hat??
+-IcSI60npSo\tMisfire, weak spark, 2 years after coil replacement 94 Toyota Celica (part 1)
+HJF5EXORMEs\tWhat's new for 2020 and a SD Premium class on Testing 2-Wire (VRS) Cam and Crank Sensors
+NKXY45Cjb70\t03 Silverado Misfire, Rich AND Lean fault codes
+7vf8CN_qycM\tIdentifying a Shifted Crankshaft Timing Gear (Picoscope and PSI Transducer)
+ol-e4XVoCxM\tAn SD Premium Class on Fuel System Testing and Trouble Codes P0171, P0174
+H6cVPelQ9OA\tNo Start From Stuck Closed Fuel Injectors (salvage yard engine swap)
+T1dqFmRjra8\t2006 Hummer H3 Reduced Power Mode Troubleshooting (TAC/ETC Faults)
+hUKLEeBCTHk\tBCM Controlled Tail Light Circuit Diagnosis
+BeENA2RxMVo\tKillington Vermont Snowboard Trip Feb 2019
+fIVa8PYIav8\tVoltage drop testing a parking light/turn signal circuit (Part 2)
+0ypTVheVJ8A\tVoltage drop testing a parking light/turn signal circuit
+1-9bFR1Y60o\tCan we trust "the unplug it test"?
+9453swhB4Ls\t09 Buick LaCrosse Intermittent Misfire P0300
+agbEFhAyYI4\tChrysler-Dodge-Mitsubishi 2.5L Misfiring, Pinging, Detonation, Stalling, No Start, P0171 Code
+3ckKXg-kx4Y\tCloning a New Tire Pressure Monitor Sensor (TPMS)
+AAOhiQE1ngI\t2011 Kia Sportage No Com with BCM
+V_D2Dy5fCJQ\t2009 Ford Fusion Secondary Air Injection System Fault P0410, P0491
+m8pgl5hp_mw\tCircuit ID and Integrity Testing Part 3 (an SD Premium class preview)
+6FnHYvIfWBk\tCaleb and May Danner sing a duet
+RcQdITo_AOA\tTroubleshooting a Shorted 5v Reference Circuit (Chevy Silverado)
+Pup3FyTq86g\t2013 Kia Dome Light  - Featuring Rosedale Technical College
+I-wsoIfWHAg\tCameraman Caleb Danner throwback  12 years old playing at the Hard Rock Cafe
+_IWPUhfgjSg\t2014 Kia Forte 2.0 GDI Low Power, No Codes
+oUAdikdm-v8\tA/C Clutch Does Not Engage-Diagnostic Fundamentals (full charge)
+yw48gKmsy-0\tWeak Spark From One Coil (Waste Spark Coil Assembly)
+W-g7zLsuAKY\tThere is money in this field. Let me show you how to make it!
+UJap80YG_Yc\tMisfire quick tests (what is causing it?)
+1wsADxBEank\tNo Crank Diagnosis Fundamentals  (starter testing)
+iFXwv7K3-mU\tHow NOT to Test a Charging System (2007 Nissan Quest)
+PfmSqYFMZR4\tSDP Day 8 Part 3 - Pull-Up Circuit Testing (an SD Premium class preview)
+McsNOJvd0ao\tVoltage Drop vs Resistance Testing (Flow Charts Suck!)
+BcTxwM4cLYM\tA/C Clutch Intermittently Does Not Engage (2015 Kia Sportage)
+y4dt14YVBLo\tThe "76" House Killington Vermont (Feb. 2019 Snowboard Trip)
+yqtjjjD0TQo\tVW Passat No Start Case Study Part 1 (a 2016 SD Premium video)
+qXnegCzbX0M\tMrs. ScannerDanner teaches class today
+zUHrZTxYBGE\tCorvette Ignition Control Module Test (no spark troubleshooting)
+eOGM-A0SRMM\tFirst Day Filming at My Brothers Shop/Job Opportunity!!!
+d6VGTySUqe4\tDetermining Circuit Design (Power or Ground Side Switching)
+PybCrZPlL1Q\tTransmission Doesn't Shift (P0722 - output speed sensor fault)
+RcepdxSVZcI\tNissan/Infiniti-Used ECM-Key Reprogram and MAF problems
+Pqjw4uPeoC0\tBias Voltage (a ScannerDanner Premium preview)
+0el4-G1NkB0\tNo Crank, No Start, Simple Tests Before Calling For Help
+HAqJGE08-4g\tSubstituted Values - Circuit Integrity Testing (an SD Premium preview)
+Ip6fBt9SIRo\tTPS Signal Shorted to 12v Scan Data Fixed at 5v - P0123
+ia3xj2ApFZ8\tP0172, P0300, Extended Crank-Incorrect Alcohol Content-Flex Fuel System
+amAC0M2aUwA\tParking Brake Air Leak Field Repair! 2001 American Coach Spartan Chassis
+sc1YdkWRZqQ\tOpen Circuit Testing (Ground Side Switched Solenoid)+Wiring Repair Tips
+Uk-GqHpOKAY\t2002 Dodge Truck Will Not Restart When Hot (P0340)
+JWfdHXL-bPg\tP0340 Cam Sensor Circuit Code (New Sensor Installed)
+YdXSe3MLgPc\tWaste Spark Ignition Coil Quick Tests
+VyRRu3PXbQ8\t2007 Dodge Truck No Crank, Wiring Repairs, New Scan Tool
+4CddBAIp3C4\tPlaying with a new scan tool (Auro IM600)
+T8JkjW1_wTY\tTroubleshooting P0171, P0174 trouble codes (how to read and interpret fuel trim data)
+9U942uGTZf0\tNo Spark Diagnostics "Control Testing" Part 2 [a ScannerDanner Premium video]
+7nHbctRwyys\tNo Spark Diagnostics "Control Testing" Part 1 [a ScannerDanner Premium video]
+01shTvwZ0oQ\t2011 Chevy Aveo with a P0171 caused by a cracked air intake tube
+RfkY91Kklks\tScannerDanner Premium Navigation and Where to Start
+F2gi5hRV3kg\tO2 Code, Dirty Throttle Body (stalling problem) & Mechanic Incompetence
+1Nvyc_88AbY\tSensor grounds and the 5v reference circuit (a 2016 ScannerDanner Premium video)
+-onvtdX1XIY\tFord Taurus Misfire and Lean Condition Case Study (a 2016 ScannerDanner Premium video)
+IqPph7tHhC4\tHanging out with my brother (James Danner)
+hGd6Q_r7Tvw\tUsing Solder Seal Heat Shrink Butt Connectors
+aGC8-4LnfzM\t2005 Chevy Equinox Low Power, Low Fuel Pressure Troubleshooting
+TyIxje20YzA\t2014 Chevy Malibu 2.0L P1101 Caused by a Dirty Throttle Body
+v9csp3-4VSs\tFuel Injector Not Pulsing "Intentional Shut Down" an SD Premium video
+8_q2iCGTeYM\tCamera Man Caleb's First Brake Job (First time DIY brake job)
+RaTVuv6CHgU\tDirty Throttle Body-Identification and Cleaning
+kmwDGbTqA9Q\tRedline ReadySmoke Unboxing-Exhaust Leak Test-2001 Cummins 8.3L ISC
+5guCT6JkJwQ\t2000 Mercury Villager-Nissan Quest Misfire - is it spark, fuel or compression
+83e5SI4IzDM\tBias voltage testing - leave your ohmmeter in your tool box
+EB3hE6tCOic\tQuick Diagnosis of a '97 Chevy with a Fuel Pressure Problem
+rQBIYLqLk2g\t2001 Ford F-250 Misfire Troubleshooting (with MAF and IAT codes)
+vFBva8m91Es\tNew Fuel Pump, No Fuel Pressure Diagnosis (Lincoln Towncar comeback)
+Q0mnhgHVCb4\tRazor MX500 48 Volt Conversion (3 years later!)
+51hsu4-MQkA\tHonda Civic EVAP Leak P1457 (no visible smoke)
+yCqv_G4zmT4\tHow to install a cold air intake
+UC3tvlHvm8k\t2010 Mazda 3 No Communication With PCM, No Start, No Crank
+F9db0Yi_wkE\tCharging System Operation and Testing (94 Toyota Celica)
+Tq1m3vzdVjo\tFord EEC-IV No Start No Fuel Pressure Troubleshooting (Lincoln Towncar)
+ru80fokPnMQ\tHow to locate a short in a wiring harness (visual inspection)
+kMsLmc6BvmI\tREDLINE Smoke Pro, EVAP and Intake Leak Testing + Unboxing
+jxMqLbBYKps\tIgnition System Operation & Testing - (No Spark Toyota Celica)-Part 2
+BqcKd_Gdo4A\tIgnition System Operation & Testing - (No Spark Toyota Celica)-Part 1
+t3_9sz-og1M\t2014 Hyundai Elantra Intermittent Stalling P0335 Crankshaft Position Sensor "A" Circuit
+ogfStIqiONk\tTesting CAM-CRANK Sensor Relationship on a Picoscope
+mG4uRlcDRlc\tComputer Controlled Blower Motor Testing (Cadillac)
+sq0HLREinNU\tNo Start Testing Basics - Spark, Injector Pulse and Fuel Pressure (Hyundai Santa Fe)
+U0HktTWiw0Y\tNo Crank, new starter, how to troubleshoot, any car! (2011 Ford Taurus)
+4M_XOTRMRmU\tAn SD Premium class on Testing Mass Air Flow Sensors
+zQXeMqlBagI\tHow to diagnose a misfire (a ScannerDanner Premium training video)
+Ff7WT6g1HJs\tScannerDanner Premium Update PLEASE WATCH!
+QUt5OtSyTfo\tDyno Testing a Low Power Complaint at Rosedale Technical College
+pb8o5EngBwM\tThermistor-Potentiometer comparison and the 5v reference circuit
+NsNdOPpOMhE\tAuxbeam 50" 288W CREE Light Bar Install
+4tEacy3k4Vs\tHow to test a computer controlled solenoid, any car (EVAP Vent P0449 GM)
+uB9XCDO8oa8\tMisfire Quick Tests (Is it a spark, fuel or compression problem?)
+uD7HNpjkMCc\t2001 8.3L Cummins Coolant Flush and Filter Change with DCA4 (SCA)
+8NXjUlDwZs0\tGMC Yukon HVAC Blower Motor Won't Turn On
+31yQYs0JyYo\tDodge Dakota No Start, No Fuel Pressure Testing
+7qBKLKgapUo\t2004 Chevy Truck A/C compressor does not engage part 2
+k_KJuqR1gKQ\t2004 Chevy Truck O2 Sensor Fuel Trim codes P0131, P0134, P0171, P1133 part 1
+lx1dqoxiZ7Q\tTroubleshooting a No Start, No Spark, No Fuel, No Com (any car)
+fxjYHqCa2R8\tHigh Coolant Temp Switch Circuit Diagnosis and Repair (2001 American Tradition 8.3L)
+vQf9brsOYOM\tSymptoms of a bad MAF sensor (how to troubleshoot)
+xBuAQuWezMY\tA/C Diagnosis-Sticking Thermal Expansion Valve (TXV, H-Valve)
+MccnOhc4OHE\tNOCO Genius Boost HD GB70 2000 Amp (Two Years Later)
+w9PKJrK4Fbs\tHow to locate an open circuit in a wiring harness
+J6DSpx1V3Ms\tA/C Leak Testing Using Compressed Air, Soap and Water (any car)
+oo1SRIFIkhs\tNo crank, good starter, how to troubleshoot, any car! (Hyundai)
+v0AIhj_vykU\tHow to troubleshoot/bypass a GM VATS Passlock Passkey System
+TZwJ2jp8g0E\tJeep Cherokee 4.0L Misfire and Primary Ignition Trouble Codes
+5DI3GlpOszE\tAlcohol in Fuel Test and Reset - 2006 Flex Fuel Chevy Impala
+pOghpmVhVng\tCranking compression sound and scope test
+m5XM5Ak55gU\tAir Conditioning Not Working (system performance, leak test) - Honda CRV
+25XXSQYArpc\tLincoln Navigator Low Power, P0171, P0174 - Fuel Delivery Testing
+4E--DtUUG_I\tNissan Pickup, Low Power [Stink Bug in MAF Sensor]
+zG_l3YcV0gU\tLearning Volumetric Efficiency Testing (DECS)
+kvfSwYdPxAE\tSilverado 2500 HD Brakes Hanging Up, Diagnosis and Repair Part 3
+Z7A40NW-N-0\tShould you cut or replace your brake rotors? (Silverado Brake Service Part 2)
+rqSn-gxFY4k\tSilverado 2500 HD Brakes Hanging Up, Diagnosis and Repair Part 1
+S0Fs2i-XBKI\tNo Start, Engine Cranks Okay, Troubleshooting With Basic Tools (No Power to Injectors)
+GPQ8EKtvM_g\t2012 VW Jetta No Communication with TCM U0101 (part 2)
+oTo2Zj57mUE\t2012 VW Jetta No Communication with TCM U0101 (part 1)
+d3tojKvSyRI\tHow to test a power window switch/motor (1985-2001 Toyota)
+YqDUk9i1nsI\tWatch ScannerDanner Accidentally Shock Himself With An Ignition Coil
+gWQ4a8IOPCI\tSnap-On 14.4 V MicroLithium 3/8" & 1/4" Drive Cordless Ratchet Review
+5b7XSWg8hLE\t2008 Chevy Tahoe Airbag Fault B0084 (Front End Sensor 2 Erratic)
+3Y6XkOS6kTk\tShop time at Rosedale Tech (Nissan Maxima fuel Guage repair)
+k5VVcNKAK6U\tTesting for a bad head gasket  - Gas Analyzer vs Chemical
+h2HqYGYeLq4\t2007 Cadillac DTS P0449 Evaporative Emission EVAP Vent Solenoid Control Circuit
+Jr_Qg8w9GRI\tFord Taurus Lean Codes (P0171 & P0174) with Rich Bank 2 (P2198)
+jhrF__kQpmk\t1995 Jeep Cherokee XJ front axle u-joints (part 2)/front brake service
+aeueHpifvRs\tWhat's new for ScannerDanner Premium for 2017
+c1YztxYUySQ\t1995 Jeep Cherokee XJ front axle u-joints (how-to) part 1
+0OumX9covQc\tEVAP vent solenoid wiring repair and testing P0449
+1I7lEZDPUuI\tRV fresh water pump, pressure switch replacement (ShurFlow 94-231-20)
+hyt2P2Y4rog\tVibration After Lift Kit Installation Caused by Tapered Rear Blocks
+wuB-0MF-Iwg\tRV Fresh Water Pump Troubleshooting (low psi, erratic operation)
+RPAUqxXAU1Q\tNo Fuel Pressure Troubleshooting Basics (any car)
+YhD7f4UrQqE\t2011 Ford Fusion Purge Solenoid Test (P0455 EVAP Leak)
+gJkCoI0Re3s\tScannerDanner Gets a New Jeep!
+zKocVH4oOwQ\tSpeedometer Erratic/Transmission Shifts Hard/3000 MH Allison Transmission
+C-63cuEloK4\tHelp ScannerDanner Find Another Jeep
+UNeE-kKsLpc\tScannerDanner's Jeep CATCHES ON FIRE!!!
+7rT7l0ocAfk\tHow to replace ball joints on a 1995 Jeep Cherokee (part 2 - install)
+YkoOBVvfnrU\tHow to replace ball joints on a 1995 Jeep Cherokee (part 1- removal)
+YBN6xrY1IAk\tAllison Transmission (3000 series) fluid and filter change - 2001 American Coach
+0rQn9YBMZIg\tHow to quickly identify a vacuum leak using fuel trim and water
+-ZGLoSSowYY\t99 Honda Civic No Spark Diagnosis with a Test Light
+yzkw720STeU\tThe missing o-ring! 2001 Cummins 8.3 ISC Fuel Filter change part 2
+jJJcZb1lmug\t2001 Cummins 8.3 ISC Fuel Filter change (American Coach) part 1
+FIyuiNV-82s\tA/C Leak Testing and Repair part 3 - 95 Jeep
+XwDckyKc5GI\tVickers/Eaton V20 Vane Pump Leak Repair (American Coach)
+JSCnjcQm-ZQ\tA/C Leak Testing and Repair part 2 - 95 Jeep
+jTAfYJyPniM\tA/C Leak Testing and Repair part 1 - 95 Jeep
+Py23wqbJnQQ\t2010 Nissan Altima P0455 P0442 EVAP Leak Testing
+iw5wns3p56U\t1998 Chevy Van 5.7 No Crank and Misfire Troubleshooting
+EEJdurlvlyA\tElectro Viscous Fan - P1482 Cooling Fan Speed Sensor Circuit
+KTbmgjA0N9s\tA/C clutch not engaging - 2005 Honda Odyssey
+jKVy_FLehhw\t2012 Dodge Caliber P0441 EVAP Purge System Performance
+-fyKizH_oQ8\tNo crank, no start diagnosis (bad block ground) - Ford SHO
+BAWB9aMviNM\t#ETCGMEETUP2016 with ScannerDanner
+rH_sOURHX8U\tNo Crank, No Start troubleshooting, Is my starter bad?
+6-FY2IgatFs\tThrottle Position Sensor trouble code (P0123) caused by bent computer pin
+hYHphciFnH4\tWhere to get known good lab scope waveforms
+WjhJXCrr0Mw\tMercury Cougar moaning, humming, howling sound at idle (bad IAC valve)
+m4l49cadc80\tMercury Cougar high idle speed, lean condition P0171, P0174
+sBpV3jtkBJA\tABS activates on every stop - damaged tone ring
+PFcOwbPLNXw\tHow to verify and troubleshoot a no fuel pressure problem - Jeep
+4N40lBnA8sI\tWhat is Oxygen Sensor Bias Voltage? (an SD Premium video)
+NTec5ha83QU\tHow to test an O2 sensor on a Harley Davidson
+qQ-R6k_EoFI\tIntermittent stalling, no start from a shorted vehicle speed sensor
+qpL_0-8DrhE\tIntermittent stall, no start - P0320, P1391 cam, crank sensor testing (Jeep)
+h8rxpfRvHf8\tSystem Too Lean (P0171, P0174) - Vacuum Leak Quick Test - Ford 5.4
+LZ1G49a8wfQ\t(EVAP) Vent Solenoid Control Circuit P0449 repair - GM
+UPz4LvQJiko\tSilverado 2500 lift kit install - rear block install, final pics (part 5)
+gE8JYKASy8s\tSilverado 2500 lift kit install - install control arms, axles, shocks, torsion keys (part 4)
+AA-vHbE1IA8\tBattery keeps going dead (what to test before replacing)
+N-1Dw8Xsad8\tSilverado 2500 lift kit install - front diff  lowering kit and install (part 3)
+QFSWh4Y0IH0\tSilverado 2500 lift kit install - control arms, shocks, axles, front diff (part 2)
+nFuGFx75hlY\tSilverado 2500 lift kit install - torsion bar keys (part 1)
+CCPgC2_QLos\tScannerDanner "Tried To Diagnose...Can't"
+q40CPwcPlOE\tNo start troubleshooting (fuel pressure, injector pulse, spark) - GM OBDI
+3RFTS22w6tM\tCauses of lean condition trouble codes P0171, P0174 - GM 5 3L
+7D62iB4jvkQ\tHow to test a knock sensor (P0328) - Nissan
+s65jumJ3idE\tOxygen Sensor Slow Response test (P0134) - Nissan
+bG0ZllOn02Q\tEVAP  leak P0455 (vacuum cut valve-bypass valve test) - Nissan
+_RF4yct8J54\tIntake/Exhaust Camshaft Actuator Solenoid test (P0010, P0011) - GM 2.4
+GExqzFe2IOg\tHow to relearn tire pressure sensors (no tools required)-GM (up to 2010)
+ed2Z7SOgLuE\tJeep 4.0L timing problems (a ScannerDanner Premium video)
+fFFQRUN4SAk\tV-Rod Muscle Backrest and Luggage Rack Install
+ZgNY3ZpjSsU\tFuel pump electrical circuit diagnosis (no fuel pressure testing) GM
+hNq7AJjGVvA\tFord Cam Sensor Synchronizer Test
+rA5vX3Epe7w\tFord EGR flow quick test (P0401) DPFE fault
+rpIdvtwWtk8\tJames Danner makes fun of ScannerDanner
+YtpDi2vnGog\tHow to test a crank sensor (Chrysler Dodge Jeep)
+5Zb7q0aunz8\tHow to troubleshoot a faulty MAF sensor (Mercedes Benz)
+X2M0SHUBFyM\tHow to troubleshoot a no crank problem (94 Toyota Celica)
+IMuyqtFXIPU\tSymptoms and causes of a bad ignition coil
+IjjB5-pnj2I\tNOCO GB70 BOOST HD Jump Starter Product Review Part 2 (Field Testing)
+a3Ez_wQgoNc\tNOCO GB70 BOOST HD Jump Starter Product Review Part 1
+yvzaRRDLIRQ\tHow to test an EVAP Vent solenoid (applies to all cars) - GM
+s31gbHMgl58\tHummer H3 Valve Seat Problems
+nksLy9MS0IQ\tHow to test an Engine Coolant or Intake Air Temperature Sensor (any car)
+KcXS3eD_OTU\tSnap-on Vantage MT2400 will not turn on
+nqaMOO0wsH8\tHow to test a starter (engine doesn't crank)- bad park/neutral switch-GM 3800
+zYjj8QO5OyI\tSTFT reads opposite of LTFT (after repair fuel trim data)
+tJgrHkuqcC8\tP0507 Idle Speed Performance Higher Than Expected (vacuum leak) - Jeep
+ppActthRa70\tHow to find a misfire with no trouble codes (uScope)
+jfIG0dk_09s\tHow to identify a shorted ignition coil (Honda C.O.P.)
+JIU8j4YBZxw\tHow to test for a restricted exhaust using the DPFE sensor on a Ford
+kQUtAs-VrDY\tHow to test a fuel injector circuit with basic tools (open control wire)
+LdnnFD6J8Uo\tSubaru no spark diagnosis-control testing lecture (a free SD Premium video)
+WH1GLWSTTXM\tHow to test a Ford MAF sensor
+wxaohKkQF3o\tHow to test a coolant temperature sensor (ECT sensor test)
+8VCwSotsDKA\tRazor MX500 48 Volt Conversion (Part 3 of the build)
+nr0PRkcktYw\tRazor MX500 48 Volt Conversion (Part 2 of the build)
+Ex1ChpWG1go\tHow to test a Ford crank sensor (Ford 2 0L Case Study)
+asfG1vbLpck\tRazor MX500 48 Volt Conversion (Part 1 of the build)
+fN1lt9Xt6zA\tRazor MX500 48 Volt Conversion (before and after comparison) Part 1
+32S0WMj3GSQ\tEngine does not crank (bad block ground) - Cadillac
+CEKjjXNLTjk\tHow to identify and clean a dirty MAF sensor (Lexus)
+MJ3OTH_Ps-c\tScannerDanner's career path, from student to instructor at RTC
+tMMm1XHUxQc\tHow to test for a bad head gasket (chemical test)
+_DPcvIXFrtw\tDownstream Fuel Trim (A James Danner video review)
+AvLbb48tQPw\tHow to test an alternator (Chrysler Dodge Jeep)
+kQz3g4HIWgs\tHow to test a computer controlled solenoid - power/ground side identification
+ywuHHPcsrBA\tToyota Ignition Coil Test (Snap-on Verus)
+K-on2hbYUCc\tFord F-150 P0171 P0174 Trouble Codes - vacuum leak (water test)
+Nqxc-ZViQso\tScannerDanner visits Panama (and shares his faith)
+Bs0QcLxFDWc\tElectronic Thermostat Part 2
+Yq4ibBA0J1A\tSnap-on Vantage Pro
+-EihJ7hghXI\t1988 F150 Hesitation Problem [FIX!]
+6UPe5f1s2ak\t1988 Ford F150 EEC-IV , No Spark [Good Ignition Coil, Module and Distributor Pick-up]
+lsi_makCKR8\tShop time with ScannerDanner at Rosedale Tech (live work part 2)
+yhfxSjyMrmE\tShop time with ScannerDanner at Rosedale Tech (live work part 1)
+f0njHMVaP14\tFirst Day In the Shop at Rosedale Technical College (with ScannerDanner)
+5lC5g2Csfm8\tNew countries added to ScannerDanner Premium
+mjgWcVcPP2M\tGM MAF sensor circuit tests (a free ScannerDanner Premium video)
+QWYdKvOXff8\tJames Danner Video Review
+6m6nJ1Xv8PU\tHow to test an electronic thermostat (GM design) part 1
+ecz93B5SRsQ\tBad Engine Computer Testing Part 2
+hJQ6qnhTgdg\tBad Engine Computer Testing Part 1
+pxVjZ6FCIVk\tEvap System Large Leak Detected P0455 (sticking vent solenoid) - Nissan
+kRnq8uuUGOg\tJeep 4.7 no start from faulty cam sensor (an SD Premium video)
+kO91s0CoM_4\tHow to test for a plugged exhaust (picoscope & psi transducer)
+mDKj19Hnhd0\tHow to test an ignition coil/module with a test light (distributor ignition) - GM
+UkyM1L_xbaU\tO2 sensor (fixed lean) and restricted exhaust test (melted cat) - GM
+iZZM_lNfa3g\tNo Crank Troubleshooting (engine does not crank) - Jeep
+ClCuoi3JxEI\tHow to identify a bad oxygen sensor (signal fixed rich)
+UUWOio9ZGWo\t2008 Chevy Avalanche EVAP Vent Solenoid Test (P0449, P0455)
+FaTGowykJYc\t2014 Subaru WRX O2 Heater Test (P0037, P0141)
+cuod8-zFSQ4\tHow to find a vacuum leak with water
+0r3nCwZsS3M\tFord idle air control valve (IAC) test - stalling problems
+uU0Aw4kBiY8\tWhat does an open plug wire look like on a lab scope (uScope)
+uFsb37M-aiI\tThe Danner Boys (where we started)
+zIZCbn7aaME\tPontiac Torrent (stalling, O2 and EGR codes)
+iFLaRd_5wc8\tIgnition testing with a scope (Secondary Waveforms) - open plug wire
+Fj4RqBBdUc4\tHow to handle intermittent problems that cannot be duplicated. (misfire, no start)
+ntJJYhkmR4I\tPicoscope Basics Part 2 (time base, sample rate, waveform buffer)
+R9PzG_FiNhY\tNo Start No Fuel Pressure Troubleshooting - GM 2.2 Ecotec
+EBABtCi_YQ4\tNo Start, No Spark, No Injector Pulse (faulty crank sensor)
+UwQVg0CtkuQ\tHow to test an ignition coil with a test light (Nissan C.O.P design)
+VrsI1xCoZ8M\tFaulty cam sensor setting a crank sensor code - P1389, P0320, P0622
+_WnnDlIJ4f4\t2008 Hummer H3 Misfire Case Study (Part 6)
+WdGWDWuESos\t2008 Hummer H3 Misfire Case Study (Part 5)
+oFCPeqPKGNU\t2008 Hummer H3 Misfire Case Study (Part 4) Leak down test revisited
+bUT9cghOZok\t2008 Hummer H3 Misfire Case Study (Part 3)
+dpQrIhy2zQc\t2008 Hummer H3 Misfire Case Study (Part 2)
+tZWsOupUzhY\t2008 Hummer H3 Misfire Case Study (Part 1)
+zpKHQXa7OuU\t2002 VW GTI Overheating (possible causes) Part 3
+2-JBTwOvD9w\tHow to test a Knock Sensor (P0328) - Subaru
+xmGNe7QWxyY\t2002 VW GTI Cooling Fan Test (Part 2)
+S77LFqhIhFE\t2002 VW GTI Cooling Fan Test (Part 1)
+rzkYNM9hClY\t2004 Mazda MPV Low Power Case Study
+6B7HrBN2tvY\tHow to test camshaft actuator solenoids (P0010, P0013) 2008 GM 2.4 L
+6vIcu3NVfcU\tFuel Injector Testing with basic tools (noid light, test light)
+SUxagOAVS5M\tHow to test fuel pressure, injector pulse and spark with basic tools - Honda
+b8ww7lMMpZ8\tLexus fuel injector failing when hot, misfire (fixed with snow)
+_Ijhi7ai1HY\tIgnition System Designs, Operation and Testing (an SD Premium video)
+E6yLLqAxhcs\tEVAP Leak Test P0455
+NCjFRLxB8fw\tSaturn No Start Case Study (featuring Beau Danner)
+Q6lRNG5NdQU\tMisfire from restricted injectors - Chevy Prism (Toyota 1.8L) part 2
+e3atZT08xcA\tBoxer in trouble
+mfXa2zXECok\tThere is another ScannerDanner?
+pv9R2IEG4mU\tMisfire from restricted injectors - Chevy Prism (Toyota 1.8L) part 1
+levTV3XM7sI\tFuel injector flow testing (a free ScannerDanner Premium lecture)
+m2fubKkvZVI\tMisfire Case Study (1999 Honda Accord)
+F2ZXhai-x9k\tHow to test an electric fuel pump (no fuel psi testing) Ford
+gtTKOuu6EPw\tWARNING! Aftermarket Oxygen Sensors (Chrysler/Dodge/Jeep part 2)
+-lUYRqaYvYI\tWARNING! Aftermarket Oxygen Sensors (Chrysler/Dodge/Jeep part 1)
+EAvoz4kqw9g\tSymptoms and Causes of Low Fuel Pressure Part II (new fuel pump)
+DhtE2a-336s\tO2 Heater Circuit Operation and Testing Preview
+RyEPOeQB0Zg\tSymptoms and Causes of Low Fuel Pressure (Part 1)
+Yv0pu56U238\tNissan Maxima Misfire Case Study Part II
+8v5ov0wM74U\tNissan Maxima Misfire Case Study Part I
+uyncVz_HAtA\tHow to check the 5v reference circuit for a short to ground (Cadillac)
+1Ea0Sjx_ZXE\tWhy the MAF "unplug it test" is NOT always accurate (brake booster leak)
+4YWCKzpbgb0\tEngine does not crank (seized alternator) - Mini Cooper
+LKJWkAGMOfQ\tHow to test a digital ABS wheel speed sensor - 08 Chrysler,Dodge,Jeep
+Q-KVA-TBht0\tAbout my new YouTube Channlel "ScannerDanner Premium"
+UBNo_yg2gFI\tMagneto Resistive ABS Wheel Speed Sensor Test - 2006 GM
+dgvIicgZRcQ\t1993 GM 3.1 No Start Case Study (Part III)
+h06xb6SC7Yc\t1993 GM 3.1 No Start Case Study (Part II)
+lNkN8JSWeNU\t1993 GM 3.1 No Start Case Study (Part 1)
+IHoKkdAGNZk\tNo fuel pressure diagnosis and testing (new fuel pump installed, reversed wiring)
+0GOzJQzVuVQ\t2002 Isuzu Rodeo (misfire, low power case study, reversed O2 connectors)
+qjqRt2-wItQ\t99 Subaru Impreza No Start, Ignition Coils Fire With Key On!
+iIO-2LmwkdY\tRough idle, MAP code 33,  intermittent no start (shorted injectors) - GM
+MNjSn9AWFVw\tHow to test an electric air pump (P0410 case study)
+81AGbZcgCZs\tPicoscope Basics Part 1 (scale, time base and trigger settings)
+EF3Qb2rbAx4\tTransmission No Shift Case Study (P0888)
+jePiyHENAzw\tHonda/Acura ABS testing, code 1-2 (failed ABS pump motor)
+Ht12mWdrNbU\tNissan-Infinity no start, no spark from a faulty crank sensor
+te_kapz-fj4\tHow to test an electronic EGR valve (GM P1406 case study)
+DYmW3W_E1KQ\tChapter 20 "Idle Speed Controls" - preview (an SD Premium video)
+FK9STP4G9-I\tHow to find a short to ground (blown fuse)
+--AdY8z1QfU\tHow to test an Alternator (not charging from a blown fuse) - Mazda
+EhdnfhiTi5U\tSubstituted values (Scan Data Can Lie To You!) MAF sensor fault
+MGaHaIXZioA\tBad Alternator Diode causing transmission/speedometer problems
+ksyj7GU9c-E\tChapter 14 (Fuel Delivery Designs) classroom lecture - an SD Premium preview
+Kr8TIc820SA\tFinding a misfire using AESwave’s uScope - weak ignition coil
+anraVkQZYfI\tHow to test an electric cooling fan (2003 Mercury Grand Marquis)
+vyVnhCIMDnw\tDiagnosing a catalyst efficiency code (P0420 or P0430)
+QVxOQTSPyGY\tOperation and testing of a Honda main relay (PGM-FI) - an SD Premium video
+6CMZ4g8n0FQ\tHow to identify a bad main relay on a Honda (PGM-FI)
+m-qJ58scPJE\tCold Air Intake Warning! (missing air filter case study)
+GDfxNHsPLCU\tP0405 EGR Sensor A Circuit Low (failed DPFE sensor)
+Sd-duZ2RCKA\tHow to test a digital ABS wheel speed sensor
+Iq27aO-zfgs\tJumped timing chain (no compression on 3 cylinders) - GM 3.6
+za13UnpbH7E\tNo Start from a shorted MAP sensor (Honda, Acura)
+i6x31RU1S_I\tHonda Civic 1.7L starts, runs, stalls (incorrect timing belt installation)
+ejh_ZCntFkE\tFord 4-wire MAF sensor wiring tests (integrity testing)
+PYFQ3Y4eFWY\tFord O2 Sensor Testing - wiring tests (no bias voltage)
+2VW78LKAQYY\tO2 sensor testing (fixed lean) P0174, P0154, P0155 - Mitsubishi
+2SmmLXGpa58\tHow to identify a broken timing chain - GM 2.2 (part 2)
+noldvC_3qY0\tHow to identify a broken timing chain - GM 2.2 (part 1)
+WrCa9cC9EPg\tP0133 O2 Slow Response (reversed O2 connectors) - Hyundai
+hB44oejFsL4\tHonda-Acura Surging Idle Speed (case study)
+7PK6r3HbjkU\t2004 GM Ecotec 2.2 misfire, no spark from one coil, bad ignition module
+3-MTko-otio\t2005 Impala Crank Sensor Code P0335 From A Shorted Cam Sensor
+Nq-54h7z9uU\tOperation and testing coil over plug ignition (4 wire) - Toyota/Lexus
+s7zv9uzs0b4\tWideband O2 sensor testing, P1130 (Lexus RX-300) - Part 2
+7Xm2rYQXT8s\tWideband O2 sensor testing, P1130 (Lexus RX-300) part 1
+QwGICKqWgM4\tHow to identify and clean a dirty MAF sensor (Subaru)
+yjQY613sql4\tFuel psi less than 50 psi = no start (GM CPI Vortec)
+CVXKXmCudAs\tDodge/Chrysler 3.3L cam/crank correlation problem (incorrect cam gear)
+gEQnKNLlcFQ\tHow to measure the current draw of your test light (Incandescent vs. LED)
+8Ui1679QYbs\tChapter 6 (Thermistors) - an SD Premium preview
+TY4TzfacFkI\tHow to troubleshoot a starting system (bad ignition switch) - Dodge Neon
+09kEgkNiJMY\tOxygen sensor operation and testing (preview from ScannerDanner Premium)
+L2a0k-XA3IE\tChapter 4 (Oxygen Sensors and Fuel Trim) - an SD Premium preview
+ZXhqGkNAFgI\tChapter 3 (Transistor Drivers and Output Solenoids) - an SD Premium preview
+HNa4iCziOzQ\tChapter 2 (Switch Inputs) classroom lecture - an SD Premium preview
+ZqWIwBByBHE\tHow to test a purge solenoid (Mazda P0443, P0455)
+HT4OnP4U0to\tEGR Closed Performance P1404 with new EGR valve installed (GM)
+ayjhL9jpFH8\tFord Idle Air Control (IAC) valve test (how to adjust minimum idle speed)
+KI9em35OcaY\tHow to test a blower motor and resistor (subscriber requested)
+WLLxcfC-zeQ\tPower Steering Pressure Sensor Testing (applies to all psi sensors) - Toyota (P0550)
+44dP6X3QS5A\tPoor running, flashing CEL, no codes (bad computer ground) - Toyota
+5MGaB7gqnGw\tSwitch Input Identification Variables
+eoodIVGgGyw\tHonda Civic, misfire, stall, hard start, weak spark (bad igniter)
+XfOkTAJOi74\t2002 Ford Escape 3.0 Misfire - ignition coils connected wrong
+ws59zXvr1SM\tMisfire caused by a misadjusted crank sensor (rubbing on flywheel)
+4C075DS2Ud4\tMAP Sensor Code P0106 caused by a dirty throttle body
+8RB7BlLnTiw\tHesitation and idle problems from a bad TPS (OBD1 Eclipse)
+6pb2jt8tabM\tLeaking Fuel Pressure Regulator (symptoms and testing)
+z5DpsRwHTfo\t2002 Chevy Cavalier No Start (a direction based approach)
+mmRhcVkJdeQ\tHow to test a fuel injector (open winding) Nissan
+BJp2uVXzUqs\tHall effect cam/crank sensor operation and testing Part 2 (an SD Premium video)
+fPkZCJgtUko\tHall effect cam/crank sensor operation and testing Part 1 (an SD Premium video)
+jACyNHl_L1g\tHow to test a crank sensor on a GM 3800 engine (3x and 18x signals)
+9gJoH5_Thaw\tHow to use Fuel Trim to identify the cause of a P0171 and P0174 code
+X5Qp-ToR8KA\tHow to test and fix a PGM-FI main relay - Honda/Acura
+pKic89CIPlM\tHow to check for a jumped timing chain or belt
+_nhlqRGNHzo\tHow to test computer controlled door locks - Subaru
+oUQpngRn-ag\tFord Taurus Cam Synchronizer Diagnosis and Replacement
+TDd0B7dSsTk\tHow to test for a bad head gasket
+ssxuR5At6Io\tHow to test for shorted fuel injectors (1987-1994 GM Cars)
+hd_bTCsnD7s\tHow to test for a shorted ignition coil (Honda Distributor)
+bJRLZnjS6ms\tMAF sensor trouble code (P0102) caused by a bad ground (GM 3100)
+dCyPkbli6zs\tMAF sensor code P0102 from bad engine computer - (Chevy van)
+Utui6SYAfoc\tScan data may not update without an RPM signal (a ScannerDanner Premium lecture)
+85nMC6xIfUg\tHow to identify injector flow problems (Toyota 1.8L) part 2
+ZnFSUNjwDPQ\tHow to identify injector flow problems (Toyota 1.8L) part 1
+RUmH4lwTLKs\tFord Ranger EGR Flow Trouble Code P0401 (DPFE fault)
+C6fL_dFy_us\t2000 Ford Focus EGR System Tests (EGR, DPFE, EVR) - P1409
+3CTuRW27n_Q\t2005 Trailblazer 4.2 #6 cylinder misfire diagnosis (spark and fuel test)
+Lo2OmuIZ2rE\tHow to test Intake Valve Control Solenoids (codes P0028, P0082) - Subaru
+OH_U3D4S5Q4\tMisfire caused by a vacuum leak
+PKJnW08-Z8c\tP0507 Idle Control System (RPM Too High) - vacuum leak - GM
+RFQBa-nqBPo\tVacuum leak testing without a smoke machine (an SD Premium video)
+y4r5OcHN5Lg\tFord 5.4 shorted coil primary winding and bad computer driver
+oZiroWQRgEc\tHow to test throttle position sensor wiring with a resistor (any car)
+9c1YSic7ejs\tCauses of low compression, no start from a stuck closed IAC (part 2) - Toyota/Lexus
+sg3J4ibMkWc\tCauses of low compression, no start from a stuck closed IAC (part 1) - Toyota/Lexus
+G_89r12vZFw\tUsing Fuel Trim to identify type of misfire (can it be done?)
+SUShO72Grq8\tSecondary Ignition Waveforms (common faults)
+Uzmoyo00VpE\tMisfire troubleshooting using exhaust gases (an SD Premium video)
+Sqpelz3aTNQ\tP0506 IAC System RPM below expected (vacuum leak) - Ford
+oRX2V6_a3dc\tUnderstanding Short Term and Long Term Fuel Trim (a SD Premium video)
+5ewJIBS9L98\tHow to determine which cylinder is misfiring (cylinder drop test)
+xwh3XM1Nl4k\t1997 Dodge Neon no start, crank sensor problems
+rQ7tvIxQSt0\tLow Fuel Pressure from a bad fuel pump ground (Ford Ranger)
+McnXLcJNVfI\tGM Fuel Pump Relay Testing
+h5KAHv47viw\tHow to test a MAF sensor using a Picoscope - GM
+WoFt3uzQd44\tHow to test an idle air control valve (IAC) using a Picoscope - Ford
+u342IRRJ5bk\tFord Electronic Returnless Fuel System Diagnosis (Part 2)
+Rwve6lXriO4\tFord Electronic Returnless Fuel System Diagnosis (Part 1) - Ford
+09_wQ9yQ85A\tHow to identify and repair a leaking fuel pressure regulator (GM CPI system) part 1
+dAAFM3zlJME\tHow to identify and repair a leaking fuel pressure regulator (GM CPI system) part 2
+CkgrMasd57s\tPressure Sensor or Potentiometer Signal Fixed at 0v [Circuit Integrity Testing]
+Lafv2c4szZY\tExhaust Backpressure Testing (known bad compared to known good)
+znw-gjLE0fk\tHow to test for proper EGR flow (restricted intake passage) - Ford
+SIR-quUzZwY\tHow to test a fuel gauge (tank sending unit) P0463 - GM
+GWf60guK8gk\tGM EVAP Vent Solenoid Testing
+01kxE1gMgio\tBasic Ignition Description, Operation and Testing (any car)
+ytrcqM8wyW0\tHow to test a starter motor (no crank from a bad block ground) - Nissan
+nYN-RoFVwAA\tLow fuel pressure causing a P0171 and P0174 trouble code
+w0PpLTnKKZg\tMultimeter basics, voltage and resistance tests (a free SD Premium video)
+Q3ZiTsKCdO8\tHow to test an electric fuel pump - using a test light
+spkpkRvQPHY\tHow to perform a compression test with a scope (Picoscope)
+FAipVwCdwSQ\tHow to test a fuel injector circuit with a noid light (a ScannerDanner Premium video)
+4mut0Lpg5k4\tHow to interpret fuel injector waveforms (a ScannerDanner Premium video)
+KArRIqMiGt8\tHow to test fuel injectors with a labscope - Chrysler 3.0
+Rqtfrx-HeD0\tFuel Pump Electrical Circuits Description and Operation
+vqj2YWbedsc\tHow to test a knock sensor - GM (low power condition)
+7MDtYzHl6AY\tHow to simulate a rich & lean O2 signal (PCM response testing)
+CEjmo_qT4yQ\tFuel Pump Relay Problem
+K7STocr9FBI\tHow to test a fuel injector for flow problems (GM)
+Wt_zTJWbDzs\tHow to test an Idle Air Control (IAC) valve - Nissan/Infinity
+vmutNjx7QDY\tGM 3300 Intermittent no start rough idle (shorted injectors) part 2
+mxPdxGqRWvc\tGM Bypass Ignition System Operation (part 1)
+jJmqdhhduVc\tIgnition coil-module test with test light  (a free SD Premium video)
+SEuGtggZAvo\tSystem Too Rich P0172, P0175 from a blown O2 heater fuse (Jeep)
+fra26yyyc-I\tHow to test a GM ignition module (crank sensor bypass test) - VRS
+3gTLY6vsxMg\tNo Start No injector pulse (shorted injector) part 2
+KF9viLxwJNc\tNo Start No injector pulse (shorted injector) part 1
+NXrd1fYwj1o\tMisfire from a sticking fuel injector (no fuel misfire)
+MOSH8XLKrLc\tHow to test a computer transistor driver (with a scan tool)
+8FnYllf5D9E\tHow to test a computer transistor driver (without a scan tool)
+ZEYMg-7J1dg\tHow to test a computer controlled solenoid (energizing the circuit manually)
+pkcwNkkNWYA\tHow to test a computer controlled solenoid (circuit ID with voltmeter)
+6kvYjYT1_mM\tHow to find a shorted coil on a Ford 5.4 engine (misfire diagnosis)
+irHVjFTq4LE\tHow to test a cam sensor with a voltmeter
+yp_kK6U8a64\tHow to test a crank sensor with a voltmeter
+v8XrM-7BuOg\tWhat can cause an O2 sensor to read near 5 volts? (Chrysler bias voltage)
+-5L5tp4NDq0\tLow power, lean conditions (cracked air intake tube) GM
+jsl531-6q-A\tStuck Open Fuel Injector (how to fix)
+djyyKlIVeMI\tO2 Sensor wiring quick tests (Ford with no bias voltage)
+Hmt_LNJ9GkI\tDirty MAF Sensor Case Study
+YBE7c7lfmnY\tHow to troubleshoot a no spark condition with a test light (Subaru)
+h17kYyFrExE\tHow to test a throttle position sensor (P0121, P0122) GM wiring integrity
+VG3EZJlyjl8\tHow to test an igniter on a Toyota/Lexus
+WKdZsWU2ZmI\tHow to perform a compression test with a scope (Verus-Vantage)
+QYtYSgglJoY\tHow to test for EGR flow problems (GM electronic EGR test) - P0401
+vTis29MQC4U\tHonda VTEC System Testing (P1259 trouble code)
+8KfKfImoIXg\tThrottle Position Sensor Test (voltmeter and scope)
+VhyNp7IsfQM\tHow to test TPS wiring with a scan tool (any car)
+nfnkT0Iki8s\tScan tool data graph vs Lab Scope waveform (Throttle Position Sensor Testing)
+H6lY42u19VM\tFalse Rich O₂ Sensor Diagnosis: Fuel Trims & Downstream Data
+fp_XZm-8nrA\tIntermittent no start problems from a bad computer ground
+uYMGnvtgi8w\tHow to test an oxygen sensor on a Honda (scope vs voltmeter)
+nLhqTG0iBVU\tHonda Oxygen Sensor quick tests (bias voltage)
+dCZdv-FYwxw\t1996 Jeep No Start Case Study Part III
+jLwNcgtv9z0\t1996 Jeep No Start Case Study Part II
+a-d6-jrGidA\t1996 Jeep No Start Case Study Part I
+adkFTSoxM6Q\tHow to quickly test an oxygen sensor circuit (GM bias voltage)
+E8sBg7kMbOw\tHow to test a GM MAF Sensor (Part 2)
+p2QLxxstRn8\tHow to test a GM MAF Sensor (Part 1)
+AKtR_yF7bi8\tTesting for a leaking, ruptured, fuel pressure regulator diaphragm
+pH_kjRwD-Xw\tFord EGR Flow Testing (P0401, P0402, P0405)
+9TlygJMxTps\tHow to test for a restricted exhaust (catalytic converter)
+IzZNlPosGSY\tHow to test a GM 3-wire crank sensor (hall effect type)
+bPdPhGcZOe0\tHow to test an ABS Wheel Speed Sensor (VRS type)
+mvP75-ko_DE\tHow to test for a shorted ignition coil with a scope (Lexus)
+0xP4lMCdO6w\tCamshaft Position Sensor Circuit Quick Test
+SsYMi3yl0T4\tHow to test for injector flow problems (Dodge, Chrysler)
+BO4NH4cTjQc\tEffects of high resistance on a data network
+tB9AKiE8mXo\tWhat do YOU think could be causing this?
+J27W5v2Bb-Q\tTesting A Computer Controlled EGR Valve - No Scan Tool Needed!
+pa2gXuAnP_E\tDIY AC Leak Testing - Just A Compressor and Soap & Water!
+d-mzQBFtrns\tA/C Leak Testing for the DIYer!!
+0mOQCX6fbd4\tEVAP Leak Testing - Could It Be The Rats Nest??
+iOFaZXNI4D4\tHow To Quickly Identify A Shorted Secondary Winding!!
+DGcDI5s6ygg\tI can't believe what we found on this
+Snq_gMLPqhE\tThis is why you should ALWAYS check your meter!
+YZjBl5uPNt4\tWhy Would You Ever Use A Test Light For This?
+wW99T4pdRP4\tAre test lights really useless?
+7CEeAGXCQPk\tI Can't Believe This Actually BLEW UP
+buULocyRBBQ\tThis Is Why Fundamentals Beat Flowcharts!
+jchFz_22aDo\tStop Wasting Your Time With Flow Charts
+t5AgG0TkZFc\tThe Parts Cannon Failed This One...
+N_XQ9TXG0Zg\tTraining the NEXT GENERATION of Techs!
+xgGWwCXNyQg\tThis “Large EVAP Leak” Wasn’t a Leak at All...
+SyI6GOIEcTw\tThis Must’ve Been Built at 5 O’Clock on a Friday...
+yvjQulwjqRM\tBad Fuel Pump and MAF Relay in ONE CAPTURE
+j65ZJq2ji6Y\t2 Separate Problems Within The MAF Circuit?
+5PXTnCFXgyE\tOld School Firebird - This One Was Ridiculous!
+EqaAE8j3d-E\tThe New Part Was BAD Too!
+dOh5XQEKIOA\tI've never seen this on a GM before!
+Ottef14-z9g\tApplying our fundamentals to a 2019 horn circuit
+VXMbnwHyy2M\tThis field is NOT all bad, it still has so much to offer
+88WqPi_QVu8\tNo Current Flow, No Voltage Drop!
+mo6LVNXsImQ\tAutomotive Diagnostics Learn your fundamentals
+NORSfRDqJU4\tLIN Bus Diagnostics on a BMW HVAC System #SDPremium
+G5xkPkpb0hI\tMechanic Abilities - You Either Have it Or You Don't
+0aiXoHMFamo\tAC starts cold then turns warm - and it’s NOT a refrigerant issue
+VoJgrEA3-KU\tDuty Cycle Does NOT Always Mean Position
+Mq0IQTU8S2Q\tHow Your Car's Computer Finds EVAP Leaks (And How We Replicate The Test)
+sKV8XjBym8g\tI messed up, but God is good!
+t6BNggTGn2k\tStop blindly following flow charts
+cP2GI9_5dCc\tI can't believe this happened...
+xOpY_Gq1mwU\tDealer Wanted $800 for a Part This Car Never Needed
+tECcwipHLTY\tWhy Cam/Crank Correlation Didn’t Catch This Timing Problem
+G7DVT00nksw\tIf I’m Wrong About This, I’m Quitting My Job
+d9Irep4Ev9E\tUsing a Wideband O2 at WOT [Fuel Delivery Test]
+N_bbq2UYcXQ\tWhat's the difference between a wide-band and narrow-band O2 sensor?
+xK1NllC_09I\tWe fixed the parasitic drain, but now it's not charging...
+NjNg4-Zg9Kw\t78 Dodge Power Wagon 483 Stroker @JAMSIONLINE
+NeNnRR2NtL8\tThis is why it's so important to check your contact points!
+mLc5pkuFMZ0\tWhy You MUST WAIT Before Parasitic Drain Testing
+_kHY8cYOZ10\tI Thought This Was A Parasitic Drain...
+EatnaI8f-mk\tIt's Not Just a Blown Fuse! [No Crank Troubleshooting]
+twIFhjkMLqQ\tWhat’s Up With This Ignition Coil Trigger? #IgnitionCoil #AutoDiagnostics #ScannerDannerPremium
+hMFU7Shdg7U\tAll These Parts For One Code?
+ahpoKVX134Q\tWhat melted this connector??
+DKjr2YssOSU\t12 volts unplugged — Zero volts plugged in (why?)
+2UlwjXUF_VA\tUpdate on my mom's cancer battle
+lFIssJxsfzE\tWhy this test comes BEFORE chains or phasers
+0ZVITbELiTE\tModule or Relay? Here’s the Proof
+1JAL2Dv4uYY\tThis Is What Was REALLY Causing the Parasitic Drain
+ssHttKBDgiM\tSomething Is Very Wrong Here…
+1aPBYW0FL6U\tThis is why you can't ignore o2 heater codes
+I-v1sGVyisc\tThis O₂ Sensor Was Lying
+Yh2v7afP1VM\t350 mA Parasitic Draw — This Shouldn’t Be Hot
+fdhSZq2VLcw\tTeaching "Dangerous Methods"?
+5463AK1rKIk\tOne Meter Mistake That Can Waste Hours! #SDPremium #automotivetraining #electricaltraining
+Cu62KYKL9PI\tIts alive! 483 Stroker Holley Terminator X Stealth EFI @Jim's Automotive Machine Shop, Inc. @Holley
+ecL5gO6VoqI\tInterested in learning more about scopes and scan tool usage? Check out www.scannerdanner.com!
+BADHGw5V69I\tWhy do I leave in my mistakes??
+gdJQMG87JY4\tWe made the call. But was it right? Full follow-up drops tomorrow
+uAIRx1Qx5ag\tCoil vs. Plug: What Failed? [Proven Diagnostic Test]
+xeaV2OcFWiQ\tSnow vs. Ignition Coils: My Most Unorthodox Diagnosis Yet
+8Xodav9ZWrk\tThis is the most FRUSTRATING and most REWARDING field
+YmZ0vbq_Esg\tThey've been dealing with this for 2 years!
+Ds86_-VY5W0\t2017 Ram Active ABS Wheel Speed Sensor Test #speedsensor #tractioncontrol
+Kg6Bc545-zE\tCounter Fuel Trim and Injector Flow Waveforms [did we fix it?]
+OpfFywuqf3A\tBank 1 Rich, Bank 2 Lean — The Real Cause Revealed!
+3suJVbWQJHY\tNew Class: Master the Call — What Makes a Module ‘Bad’? #RosedaleTech #ScannerDannerPremium
+lpWNcbgRLVA\tThe Injector Test That Fooled Me
+QuJDRNuFvS0\tInjector Balance Testing [Timer Tool vs Picoscope] Clip from upcoming video!
+Qjp05iA_j-w\tWhen righty tighty becomes righty loosey...
+r13rgg3xX3g\tThis Car is Kicking my A**!
+pcYC5wAA3RY\tQuick test for a bad head gasket! (HCs in the cooling system)
+dktFUv6sXB0\tAF Ratio and O2 Sensors [Determining Rich and Lean Signals] #oxygensensor #autotech  #automobile
+eV99w45zgEE\tAlternator Rotor Field Testing (Bad Brush Contact) #mopar  #alternator #voltageregulator
+00ef_JXZvbQ\tAlternator Rotor Field Testing #mopar #alternator #voltageregulator
+FjPjtxK7K1k\tFlowcharts For Smart People vs Dumb People
+sUCkjTh-h1g\tI guess sometimes you can change a part based on a code LOL
+VHM0hxvQat0\tIs this enough evidence to pull the cylinder head?
+agx7tUyw410\tInjector Driver Shuts Off After Disconnecting Connector #automobile #diagnosis #troubleshooting
+-nZuakI1tyY\tUsing Fuel Trim After a Repair. Did you fix it?
+uKAGTD6FSww\tIdentifying a Vacuum Leak Using Fuel Trim at Different RPMs
+uQX4PESnhSs\tThe key to keeping yourself from throwing tools #automobile #mechanic #mechaniclife
+qvLPQPDRLv8\tI hate comebacks!
+Ue4FC-Y_yOM\tHow to view ignition coil firings from the fusebox
+52KHOYnoTrk\tClearing Codes also Clears Mode 6 Data [what cylinder is misfiring?] #automobile #diagnosis
+4-BB_ydsoag\tWhy you NEVER change a part based on a trouble code #automotive #troubleshooting
+YTMa-CNiuWs\tHow to remove pressure from an A/C gauge set #airconditioning #automobile
+_hCjcBPYMDM\tGood solid fundamentals for the win
+jzkD2Nnx10g\tFlow-chart combined with Fundamentals is the way.
+iJuqG21qR_E\tUnderstanding circuit design is essential! Check out my website for the full length lecture!
+mn2wOKjgcBs\tA/C Clutch Circuit Integrity Test using a Test Light #airconditioning #automobile
+i2d3ZuQkBKM\tGot to love a good tunnel 😂   #holleyefi  @JAMSIONLINE @HolleyPerformance
+Id9jUHGsp98\tAutomotive Technician Training Opportunity
+f3rq5GOgBK4\tP1000 code warning!
+VN_blG-UD0k\tLow Tech Methods are Great [until they're not]
+_6dy5WVqvCY\tTesting an Ignition Coil boot or spark plug wire for leakage
+yDOFx_WoD_0\tI forgot to hit record on my desktop! #contentcreator #automotivediagnostics
+CWbHRqt_TkM\tSD Premium Online Technician Training Program
+hev-ElD2xG0\tI was a parts changer... new video tomorrow at noon! (7/19/25)
+6viOZTihSLc\tThe right way to remove your A/C pressure gauge after service
+xQBZXKOpCTM\tWhen my editor (son) gets bored...
+Baiwc1IfKhE\tA/C Micron Gauge [Do we really need one?] #airconditioning #automobile
+opPgcqdOrgs\tHolley Terminator X Stealth build update!78 PowerWagon 483 built by #Jamsionline #holleyperformance
+oHkuqn-CnlY\tStuck closed fuel injector testing #automobile #automotivediagnostics
+z_uSMY2AacA\tWe need to fix this! (Charging properly for testing/diagnostic time)
+Lvk8j9deEyg\tThank you #holleyperformance for the donation of a Sniper 2 to #SdCharities
+_ZwrExSxtm8\tWhy am I not getting shocked by this ignition coil? #automotivediagnostics
+hcieFygIvaQ\tSD Charities Inc Silent Auction #autel #ToolsPennsylvania #automobile
+fK2HgxScXus\tTraining Event and Tool Auction for SD Charities Inc. #ToolsPennsylvania
+KvRsieIW69U\tCranking Compression Sound Test #misfire #automotivediagnostics
+DcfnF81LC1M\tPicoScope 4425a [item up for auction at the TOOLS Pa training event] #picoscope #auction
+D2gQPkuQSOE\tTraining Event [opportunity to meet in person] SD Charities Auction #AESwave #uScope #utest
+vHm1Y7YcX2E\tWill you help us help another tech in need? #sdcharities #501c3
+jS1pSz2sFqg\tNeed some suggestions! 483 Stroker is in! #powerwagon #mopar
+QUUUsPOjQoU\tUpdate on the Jeep with 85% alcohol content!
+LJHcpEIIANQ\tLive Training Event [we would love to meet you in person!] #automobile #mechanic #training #topdon
+vewL7ahBdIY\tComeback! (misfire after injectors an HPFP replacement) #gdi #misfire
+6lC4iJq4l7o\tWhat Initial Testing Time Do We Sell This Customer? #automotivediagnostics #diagnostictroublecode
+teQ7OuAG2v8\tButt Cooler 3000
+fFAQAFbC2tM\tWhat Did I Do Wrong! [Shorted Coil?]
+Pwyi-VSeUuM\tAn Open Plug Wire can do some Damage! #misfire #nospark #ignitionsystem
+5sn16TqkKCo\tABS Wheel Speed Sensor or Wiring Problem?  #mechanic #troubleshooting #biasvoltage
+qSXgWVZX0CY\tUsing Bias Voltage to Troubleshoot an ABS Wheel Speed Sensor (part 1)
+wCXfQxbAmJg\tBad Computer Driver? [Check the Output for a Short!] #automobile #diagnostics
+r5LE3EwjtP8\tWhy is the injector shutting off? #misfire #mechanic
+oDWNcoUbCFc\tRPM Drop test using a test light [incandescent only!]
+TXDOCuqEiyA\tNo Spark Troubleshooting  [bad ECM driver test] #automotivediagnostics
+raIP3KxGMqc\tat least the parts changers can read...
+dNjslCkju9k\t10 years ago with my son Beau
+3D-DJ21Yvxk\tGet them interested when they are young!  #automobile #automotivediagnostics  #mechanic
+p5Egw0rK108\tVR type crank sensor [intermittent no signal testing]
+W4am3ArikOc\tWhen my students say "I learn better in the shop" or " I hate theory" #automotivediagnostics
+H8fNE-zg4qo\tQuick tests for no spark  #automotivediagnostics #nospark  #mechanic  #automobile
+WT8cl8i5REA\tTesting for a Leaking Head Gasket
+RrzTRG7cCi8\tNetwork Systems Diagnostics (Part1)
+6DgD8aVWtqs\tQuick low tech test to identify whether or not you might have a bad starter! #automotivediagnostics
+wMoEuCmfGqU\tA Test Light for Ignition Coil Control Testing can be Misleading with a Shorted Primary Winding (e)
+rKeFhivIWMM\tA Test Light for Ignition Coil Control Testing can be Misleading with a Shorted Primary Winding (d)
+BSHLCM4Xb8I\tA Test Light for Ignition Coil Control Testing can be Misleading with a Shorted Primary Winding (c)
+7rltvBju_vA\tA Test Light for Ignition Coil Control Testing can be Misleading with a Shorted Primary Winding (b)
+dBd1Zc24XwQ\tA Test Light for Ignition Coil Control Testing can be Misleading with a Shorted Primary Winding (a)
+O4zfLRHId90\tNo Spark Troubleshooting [Is there Coil Control?] #automotivediagnostics
+oXhW0R72_0w\tUnloading the engine for my power wagon! Click the link to watch the full video!
+JsSOw-LfzIQ\t483 Stroker created from an Industrial 413 Wedge is Finished! #mopar
+fX6QiNOGA9s\tInternal view of a restricted catalytic converter (Kia/Hyundai) #automobile
+PjEwbvifNSc\tIntermittent Short to Ground in a 5v Reference Circuit
+VxPhqqnu-2c\tInterested in Learning a Trade? [Rosedale Technical College has 8 Different Programs]
+fm0reE7uzgE\tEVAP Vent Solenoid Fault from Wires Broken INSIDE of Insulation! #automobile #automotivediagnostics
+gijr6RMntnA\tTesting an O2 sensor/AF sensor for range and accuracy!
+rCuz590Op0M\tOne of Many Reasons LED Test Lights are Garbage [Ignition Coil Control Testing]
+7ooRXnEufFI\tNo Spark Troubleshooting [Is there Coil Control?] #automotivediagnostics
+6JWXHeq772M\tHonda B-CAN network diagnostics
+Tf5aryvWznY\tWeak crank sensor signal causing start-up issues only (no codes)
+R_X3Bebq-pE\tToday I am thankful for my family and all of you! Happy Thanksgiving
+UraGBg1Ug9Q\tCan an unloaded voltage drop test still give good direction?
+q6PRWxY6fpM\tHall Effect Crank/Cam Sensor Testing will Vary Depending on Circuit Design
+PUDybtThIrU\tMopar Big Block 413 turned 483 stroker - [what all was done?] #bigblock #mopar @JAMSIONLINE
+OJ0S7vN49LA\tFirst start of the 483 stroker! Head over to @JAMSIONLINE to see the full video
+sTgBfh-Gbv0\tCheck out our latest video!
+QsZHAQSpsSM\tNew sensor, new connector, must be a bad computer? [NOT!] - learn your fundamentals
+odauEToPd0w\tWe're super excited about all the content we are putting out with all our different creators!
+r3CtMxKDo4Y\tApparently I have a teaching voice...
+O-81oBq_Ank\tFuel Pressure Testing a Polaris Sportsman 570
+lrfti3cEskA\tMy Thoughts on Backprobing Connectors
+G9JNDRR7XPU\tNo Spark Diagnostics on a Motorcycle
+PXof3fYz7a4\tUsing my body as a resistor for circuit integrity testing
+QlW4nEDRQ-k\tUsing a diode meter to inject voltage into a sensor signal wire to test for opens and shorts
+SHgAfXYSo-U\tSignal Circuit Integrity Testing and Why An RPM Signal May Be Needed
+OrWa7v14mns\tAES LineSPI [DLC 16-pin breakout box]
+pGB3FVhYS-o\tAn open "load" and a wiring problem at the same time?
+qMQApwDdGP4\tWith an open output, is a voltmeter or test light more accurate? [Part 2]
+uyt9o8CyM2s\tWith an open output, is a voltmeter or test light more accurate? [Part 1]
+t_I7Aod-2lE\tInjector control issue or intentional shut-down [learn your fundamentals!]
+N0kjMW2BWqk\tMAF Sensor/Wideband O2 Testing
+w4IfjuS5ctc\tScan Tool OBDII vs OEM Data [substituted values]
+xoQH_OUTxOE\tWhat is causing intermittent low power on this car?
+_Xl8Y6CW3yY\tA simple test to determine if you have an input or output problem!
+_vmnd8olKVU\t'I'm Bleeding" [funny clip from a great case study]
+Qp-_dJZ6Y7U\tLow Power, No Codes, Shifted Crank Gear Keyway
+ndYKV2_kWCo\tIdentifying an Actual vs False Rich Condition [P0172, P0175]
+ycLGGc2JMkI\tWorking with my family is amazing
+l0bjhoUcDAw\tThrowing Parts at a Problem Can Create MORE Problems!
+fp7C1B_YGsU\tHere is one way we can start paying our diagnostic techs as much as a brake/suspension tech
+ClFPSNjQtaM\tMisadjusted Crank Sensor causing misfiring, pinging, and a P0171 trouble code
+LfczBYn-NAY\tHow a bad ground can cause low voltage readings on your meter
+TBMkTp15LlE\tBad Driver or Shorted Solenoid? [Transmission Shift Solenoid Testing]
+UH0hxZ3XYXw\tDissecting a wiring diagram [2017 Chevy Trax Cooling Fan Circuit]
+u22paz4gvsU\tNo Start Diagnostics using an Incandescent Test Light
+rGQ-bA9z39Y\tLow Voltage from a Bad Ground? [Voltage Drop Testing Fundamentals]
+4bFY8RH2fGU\tStarter Motor Tests you MUST Learn [voltage drop on battery post of starter]
+zupboObMcB8\tHow to Test a Starter Ground Circuit
+dy_z9SRqfGo\tBad Block Ground II [No Crank Troubleshooting]
+G0xKbnlIgAg\tBad Block Ground [No Crank Troubleshooting]
+009rrjnd_p0\tOxygen Sensor Testing with a Voltmeter [False or Actual Lean Signal]
+74-K8jDKkmk\tFirst Time Driving a Manual Transmission [Beau Danner]
+NhiotrR28u0\tA/C Clutch Does Not Engage - Electrical Troubleshooting
+FECtbaPKYLM\tCAN Diagnostics - Bad Computer Ground
+_rcEruLsbug\tCAN Activity/Network Resistance Checks
+YdIXGfkGKcA\tWhy do we care about amplitude of a crank signal? [VRS type]
+PY3M5RhMDBQ\tThe tool that changed my life [Snap-On Guided Component Test Meter] @Snap-on Diagnostics
+NlIiLC-VwV4\tShout out to John Thornton #aeswave
+zs-ziinte6A\tThe excitement when you finally get it to break!
+J2fXdrNc4u8\tTesting a Magnetic Type Crank Sensor for a Weak Signal
+nFXZFy6VFg0\tWhat does it take to call a bad ecm??
+YOjRGZNUFWo\tStuck in the woods and your truck doesn't start. What do you do?
+hik4JeoVEH0\tSwitch Input Bypass Test [Pull-Down Design]
+Y4j6d9FwwaU\tThe trauma of holding a flashlight for your dad!
+2M8b08WU8Mg\tWorking with My Son Beau on His 85 Celica 22RE Engine [after install]
+Ng_2FeUhEtg\tDid you fix it? [counter fuel trim numbers]
+M3gdQQv1GHk\tFuel Trim Diagnostics [an SD Premium class] #fueltrim
+mEcjF5xq10k\tRestricted Exhaust/Plugged Cat [Identification and Testing Procedures]
+IE77Zzx3T9s\tA Circuit Can Measure Good With An Ohmmeter And Still be Bad!
+nt7mH7G1-Uk\tAftermarket Crank Sensor Causes Major Hesitations/Misfiring [Jeep]
+uulUxzFHswk\tTopdon TopScan Pro #bluetoothscanner #carscanner #automobile
+52aDurqCjew\tIgnition Coil Control Testing with a Test Light [Good Control vs No Control]
+B3yRH_fOaxo\tNo Spark? Learn This Test!
+2xMlNjTJnZU\tWho pays for this? [Engine dies while servicing A/C system]
+KpUGYgV9sOg\tA/C Low on Charge or Stuck Closed Expansion Valve?
+CC1QFeBxLtY\tRPM Drop Test [which cylinder is misfiring?]
+OEPrcFpB4b8\t2001 8.3 Cummins ISC [low power, surging, stalling, no start]
+PxeYnIKI23o\tIs the MAP code the cause or the effect??
+3TX6cbiaGsc\tUnderstanding circuit design is key!
+a7kKRWN3Mfo\tStarting Circuit Tests [test lights are obsolete...NOT!]
+r9tTsaz-Ol4\tAftermarket vs Factory Crank Sensor [click link for full video]
+QR-TRlEugIo\tMAF Sensor with a Bad Ground #dontbeapartschanger
+x1_p2iDPGm8\tIs a Relative Compression  or Cranking Sound Test Foolproof?
+E_O-MmH4j48\tNo Crank, Bad Starter? [bailing out my mom]
+04GZidopQw4\tBad Engine Computer or Open Control Wire? [Ground Side Switched Circuit]
+FSi-g03yhmQ\tHow To Pinpoint a Vacuum Leak [the safe way]
+mTCyGARoCdc\tTrouble Codes are Not Parts Lists!
+PR34bYfZhB0\tUsing the O2 Sensor at Wide Open Throttle to Determine Fuel Delivery [known bad]
+ogFptuWs4Ag\tUsing the O2 Sensor at Wide  Open Throttle to Determine Fuel Delivery [known good]
+h4NvrYfn-nQ\t2021 Toyota Tacoma [Auction Purchase] No Start, No COM, Low Reference Voltage
+52nJGXKO1Ao\tTesting Alcohol% in Fuel [severe rich conditions]
+bnZ7i0rhCs4\tIgnition Coil Firing Continuously with Key On
+dMxMDg9lSOA\tGood and Bad Fuel Injector Voltage Waveforms [misfire with engine warm]
+uyvl8V9VEyw\tEngine Misfire/Runs Good Cold/Failing Fuel Injector Winding
+CFr0SqBUhsY\tBias Voltage on a Power Side Switched Circuit
+77dVJ_s0xyM\tUsing the 5V Reference Circuit to Troubleshoot a No Start No COM w/ PCM
+lkU8m_QJ6GU\tWhat does this sound (when cranking) indicate??
+RRwIu8gvO8I\tBad Grounds Can Do Crazy Things! (Low Fuel PSI)
+O1Opb-XAa2w\tWeak Spark/RPM Drop Test [waste spark design] #misfire #ignitioncoil #rpmdrop
+anOm_PqfEYw\tUpdate on my mom's battle with cancer
+AULsnPDS4E8\tUsing the O2 Sensor at WOT to Identify a Fuel Psi Problem
+wHpGPBizo2M\tWhen the Customer is Watching
+dPe4mis1FMw\tNo Injector Pulse Testing #misfire #injector
+b9LbbLS0hmA\tTesting for Fuel Injector Control [Injector Pulse Test] #fuelinjector #nostart #misfire
+scKv93P-Q_o\tTesting for Opens and Shorts [Signal Circuit Integrity]
+69n38DEPxl0\tShorted 5v Reference Circuit [faulty MAP Sensor]
+SFNX2WIr6aM\tNo Start - PCM No Com - No Spark or Injector Pulse  [5v Reference Test]
+Rvp34rtAoKU\tWeak Spark Test [C.O.P. Ignition Coil]
+i65olYdxlcE\tWaste Spark Coil with One Open Plug Wire
+H2f5ng3ebFE\tNo Spark From One Side of a Waste Spark Ignition Coil #misfire #nospark
+_vxyIScaPnA\tCranking Compression Sound Test #misfire #techtraining #automotivediagnostics
+nDJFs8NFL2U\tA Perfect Example of a Loaded Circuit Voltage Drop Test! #starter #nostart #resistance #voltagedrop
+YNh7RqeGOSo\tIt's not just a text book, it's a field manual!
+wfvGOYGfMQY\tStuck Open GDI Fuel Injectors (failed high psi pump) #automobile #mechanic #injector #gdi
+y014qNaVIeM\tVideo #3 of my 413/483 Stroker Build with @Jim's Automotive Machine Shop, Inc. #mopar  #bigblock #lineboring #lifters
+mLfKELx2vas\tA/C Leak Testing using Vacuum is NOT 100% Accurate
+15fjpll2cIQ\tEngine Does Not Crank From a Bad Block Ground [easy test]  #automotivediagnostics #starter #nostart
+lSPOA-RNBVI\tA/C Repair Lasted One Day (Leak Test) #acrepair #leaktest #nitrogen #airconditioning #automobile
+xTgh2h-1pXc\tMisfire Diagnostics with a uScope #ignitioncoil #misfire #sparkplug #aeswave #uscope #mechanic
+FHTN6INoL-s\tWhat Weak Spark Looks Like. (Testing for spark) #ignitioncoil #toyota #nostart
+kO_oX5irnUE\t413 Wedge Stroker Build #machineshop #mopar #powerwagon @Jim's Automotive Machine Shop, Inc.
+kdgR5SJTlqQ\tSymptoms of a Weak Crank Sensor Signal
+YVeZdgHNLJ0\tThis is what it takes to get good in this field!
+jy6Aj0uJ-Ls\tNo current flow, no voltage drop!
+_rfAi581xsI\tResistance = heat in a circuit
+mMnIF7FuH-k\tDo you want to learn to be accurate in your troubleshooting? Join us at www.scannerdanner.com!
+stMBSfmszWI\tThe methods I teach you are tried and true. They won't steer you wrong!
+xmMdLe8vEN0\tVisit us on ScannerDanner Premium to view the full lecture titled "How To Read A Wiring Diagram"!
+GvdvwNQnKIM\tHow do we properly identify circuit design? Join us on our website to learn more!
+HVCws1RFsCw\tCam and lifter failure at 4000 miles
+RwfLBGrtQAg\tComing to SDP soon! LIN bus fault on my friends Silverado
+rkUw_Dv1-gs\tLooking For a Good Diagnostic Shop? [Directory in the Description]
+d-qcIGuhY10\tHow to test an O2 sensor for accuracy #techtraining
+8Luf8IKvvao\tHow to locate a short in a wiring harness (visual inspection) #short #ScannerDannerPremium
+RsAY7IbLX9Q\tSometimes Size Matters [Topdon Test Leads] #topdon
+NFmsA7SxN3c\tScope and Scan Tool Basics #automotivetechnician #automotivediagnostics #ScannerDannerPremium
+fe94SW1z7-o\tAutomotive Diagnostic Fundamentals (Bias Voltage)
+yikFzf0c3lQ\tBad Computer Ground Measures Good with an Ohmmeter #ScannerDannerPremium
+82kRlKUQQNU\tUsing the 5v Reference Circuit as a Guide to No Start Diagnostics! #5vRef #autotechtraining
+fwCJGWdEGEw\tCAN Diagnostics [Full Video Link is in this Short] #automotivediagnostics #automotivetechnician
+9oABbrHQD44\tIgnition Misfire Captured with a #uScope #aeswave
+SSKYl9dgpX8\tI'm not a smart man #short
+vazfS9_LApY\tSD Shop Directory for Customers
+GhxwFMoIe_k\tIgnition Coil Fires Continuously
+YcTqUHvodJs\tCummins 8.3 ISC CAPs Injection System [No Start Diagnostics]
+HvDGPY8Tb-w\tIt's Not Your Job to fix Everything you see!
+QxD1rfHyVNA\tThe Importance of Understanding "WHY"! #autotechnician #automotivetechnician #automotivediagnostics
+acUxzAmshbU\tClassroom Theory or Hands On Training? #automotivetraining #ScannerDannerPremium #RosedaleTech
+I0MDF4SZybU\tHow many "bad calls" have I made?
+z-m47DBU7G4\tWhether its a 1991 or 2023  car, the same principle applies!
+E5MeoJlG8OY\tDon't Always Believe the TSB
+M6gOzG7UHC8\tI Suck At Reading Fuse Boxes
+4a2-Xh7kBxQ\tBad Signal or Normal Electrical Noise? (lab scope waveforms)
+_UMXwiDgbSE\tPhil's Electrical Probe
+_2WG3WrQNcI\tLab Scope - Time Base, Sample Rate, Waveform Buffer [relationship]
+FhC8d3n4378\tHonda Power Tailgate Pinch Sensor Operation/Testing
+ZYz26LMrTzw\tHonda Odyssey CAN B Network Diagnostics on a Locking System
+ealoiDJOR68\tNo Room For Guessing If We Want Paid For Our Time
+TzscpQWfFao\tWhy Techs Avoid Diagnostic Jobs
+ZbP16DUHSL4\tFundamentals Guide You Every Time
+Pzb7Kwu6uEw\tPhil's Electrical Piercing Probe
+a-F7u0tOR-s\tPJ Walter of Voltage Drop Diagnostics
+FfnihArb114\tTesting a computer driver with a test light
+JaweszuVJzg\tWideband Oxygen Sensor Testing [Using the Downstream O2 as a Guide]
+u5F-hnm9cms\tFuel Trim Numbers After a Repair [Is it fixed?]
+h-B7IfvPz8o\tBad Ignition Coil or Bad Ignition Module?
+QeBqMFE84OE\tGDI Fuel System Testing [link to full video in description]
+yintE8SAzyo\tThe Only Time I Use An LED Test Light [part 2]
+M0C_-oyu6tI\tThe Only Time I Use An LED Test Light
+AAbME9qXNWs\tA Free SD Premium Class
