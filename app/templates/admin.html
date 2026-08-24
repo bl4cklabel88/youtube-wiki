@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block title %}Admin Panel{% endblock %}
+{% block content %}
+<div class="max-w-6xl mx-auto">
+  <div class="flex items-center justify-between mb-6">
+    <h1 class="text-2xl font-bold text-white">Admin Panel</h1>
+    <div class="flex gap-2">
+      <a href="/admin/queue" class="rounded-md bg-gray-800 hover:bg-gray-700 px-3 py-1.5 text-sm text-gray-300">Queue</a>
+      <a href="/submit" class="rounded-md bg-blue-600 hover:bg-blue-500 px-3 py-1.5 text-sm text-white">Submit Video</a>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+    {% for status, count in video_stats.items() %}
+    <div class="bg-gray-900 border border-gray-800 rounded-lg p-4">
+      <div class="text-2xl font-bold text-white">{{ count }}</div>
+      <div class="text-xs text-gray-500 capitalize">{{ status }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <!-- Sources -->
+    <section class="bg-gray-900 border border-gray-800 rounded-lg p-5">
+      <h2 class="text-lg font-semibold text-white mb-4">Sources (channels / playlists)</h2>
+      <form action="/admin/sources/add" method="post" class="flex gap-2 mb-4">
+        <input type="text" name="url" required placeholder="https://youtube.com/@Channel or playlist URL"
+               class="flex-1 rounded-md bg-gray-800 border border-gray-700 px-3 py-1.5 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-600">
+        <select name="type_" class="rounded-md bg-gray-800 border border-gray-700 px-2 py-1.5 text-sm">
+          <option value="channel">channel</option>
+          <option value="playlist">playlist</option>
+          <option value="video">video</option>
+        </select>
+        <button class="rounded-md bg-blue-600 hover:bg-blue-500 px-4 py-1.5 text-sm text-white">Add</button>
+      </form>
+      <ul class="divide-y divide-gray-800">
+        {% for s in sources %}
+        <li class="py-2 flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-sm text-gray-200 truncate">{{ s.url }}</div>
+            <div class="text-xs text-gray-500">
+              {{ s.type }} · scraped {{ s.last_scraped_at or 'never' }}
+              {% if s.auto_scrape %} · auto{% endif %}
+            </div>
+          </div>
+          <form action="/admin/sources/{{ s.id }}/delete" method="post">
+            <button class="text-xs text-red-400 hover:text-red-300">Remove</button>
+          </form>
+        </li>
+        {% else %}
+        <li class="py-3 text-sm text-gray-500">No sources yet. Add a channel or playlist above.</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <!-- Queue overview -->
+    <section class="bg-gray-900 border border-gray-800 rounded-lg p-5">
+      <h2 class="text-lg font-semibold text-white mb-4">Job Queue</h2>
+      <div class="flex flex-wrap gap-2 mb-4">
+        {% for status, count in queue_counts.items() %}
+        <span class="px-2 py-1 rounded bg-gray-800 text-xs text-gray-300 capitalize">{{ status }}: {{ count }}</span>
+        {% endfor %}
+      </div>
+      <div class="max-h-72 overflow-y-auto">
+        <table class="w-full text-sm">
+          <thead class="text-left text-xs text-gray-500">
+            <tr><th class="pb-2">ID</th><th class="pb-2">Type</th><th class="pb-2">Video</th><th class="pb-2">Status</th></tr>
+          </thead>
+          <tbody class="divide-y divide-gray-800">
+            {% for j in jobs[:20] %}
+            <tr>
+              <td class="py-2 pr-2 text-gray-500">#{{ j.id }}</td>
+              <td class="py-2 pr-2 text-gray-400">{{ j.job_type }}</td>
+              <td class="py-2 pr-2 text-gray-300 truncate max-w-[180px]">{{ j.video_title or j.youtube_id or '-' }}</td>
+              <td class="py-2">
+                <span class="px-2 py-0.5 rounded text-xs
+                  {% if j.status == 'done' %}bg-green-900/50 text-green-300
+                  {% elif j.status == 'failed' %}bg-red-900/50 text-red-300
+                  {% elif j.status == 'running' %}bg-amber-900/50 text-amber-300
+                  {% else %}bg-gray-800 text-gray-300{% endif %}">{{ j.status }}</span>
+              </td>
+            </tr>
+            {% else %}
+            <tr><td colspan="4" class="py-3 text-gray-500">Queue is empty.</td></tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <a href="/admin/queue" class="mt-3 inline-block text-sm text-blue-400 hover:underline">View full queue →</a>
+    </section>
+  </div>
+
+  <!-- Drafts -->
+  <section class="mt-6 bg-gray-900 border border-gray-800 rounded-lg p-5">
+    <h2 class="text-lg font-semibold text-white mb-4">Draft Articles (awaiting review)</h2>
+    {% if drafts %}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+      {% for d in drafts %}
+      <div class="flex items-center justify-between bg-gray-800/50 rounded-lg p-3">
+        <div class="min-w-0">
+          <a href="/article/{{ d.slug }}" class="text-sm text-gray-200 hover:text-blue-400 truncate block">{{ d.title }}</a>
+          <div class="text-xs text-gray-500">{{ d.category or 'uncategorized' }} · {{ d.updated_at }}</div>
+        </div>
+        <div class="flex gap-2 shrink-0">
+          <a href="/article/{{ d.slug }}" class="text-xs text-gray-400 hover:text-white">View</a>
+          <form action="/admin/articles/{{ d.id }}/publish" method="post">
+            <button class="text-xs text-green-400 hover:text-green-300">Publish</button>
+          </form>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="text-sm text-gray-500">No draft articles. Process transcripts to generate articles.</p>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

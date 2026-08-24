@@ -1,0 +1,25 @@
+[Unit]
+Description=YouTube Wiki - automotive diagnostic knowledge base
+Documentation=https://github.com/bl4cklabel88/youtube-wiki
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/youtube-wiki
+EnvironmentFile=/opt/youtube-wiki/.env
+Environment=PATH=/opt/youtube-wiki/.venv/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/opt/youtube-wiki/.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 2
+Restart=on-failure
+RestartSec=5
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=false
+ReadWritePaths=/opt/youtube-wiki/data
+
+[Install]
+WantedBy=multi-user.target

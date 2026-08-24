@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block title %}Browse{% endblock %}
+{% block content %}
+<div class="grid grid-cols-1 lg:grid-cols-[240px_1fr] gap-6">
+
+  <!-- Sidebar filters -->
+  <aside class="space-y-5">
+    <div class="bg-gray-900 rounded-lg border border-gray-800 p-4">
+      <h3 class="text-sm font-semibold text-gray-300 uppercase tracking-wide mb-3">Categories</h3>
+      <ul class="space-y-1 text-sm">
+        <li>
+          <a href="/" class="block py-1 px-2 rounded hover:bg-gray-800 {% if not selected_category %}text-blue-400{% else %}text-gray-400{% endif %}">All</a>
+        </li>
+        {% for c in categories %}
+        <li>
+          <a href="/?category={{ c.name }}" class="flex justify-between py-1 px-2 rounded hover:bg-gray-800 {% if selected_category == c.name %}text-blue-400 bg-gray-800{% else %}text-gray-400{% endif %}">
+            <span>{{ c.name }}</span><span class="text-gray-600">{{ c.count }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="bg-gray-900 rounded-lg border border-gray-800 p-4">
+      <h3 class="text-sm font-semibold text-gray-300 uppercase tracking-wide mb-3">Channels</h3>
+      <ul class="space-y-1 text-sm max-h-64 overflow-y-auto">
+        <li>
+          <a href="/" class="block py-1 px-2 rounded hover:bg-gray-800 {% if not selected_channel %}text-blue-400{% else %}text-gray-400{% endif %}">All</a>
+        </li>
+        {% for ch in channels %}
+        <li>
+          <a href="/?channel={{ ch.name }}" class="flex justify-between py-1 px-2 rounded hover:bg-gray-800 {% if selected_channel == ch.name %}text-blue-400 bg-gray-800{% else %}text-gray-400{% endif %}">
+            <span>{{ ch.name }}</span><span class="text-gray-600">{{ ch.count }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
+
+  <!-- Article list -->
+  <section>
+    <div class="flex items-center justify-between mb-4">
+      <h1 class="text-xl font-bold text-white">
+        {% if q %}Search results for “{{ q }}”{% else %}Articles{% endif %}
+        <span class="text-sm font-normal text-gray-500 ml-2">{{ total }} found</span>
+      </h1>
+    </div>
+
+    {% if articles %}
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+      {% for a in articles %}
+      <a href="/article/{{ a.slug }}" class="group bg-gray-900 border border-gray-800 rounded-lg p-4 hover:border-blue-700 transition flex flex-col">
+        <div class="flex items-center gap-2 mb-2">
+          {% if a.category %}<span class="text-xs px-2 py-0.5 rounded-full bg-blue-900/60 text-blue-300">{{ a.category }}</span>{% endif %}
+          {% if a.source_channel %}<span class="text-xs text-gray-500">{{ a.source_channel }}</span>{% endif %}
+        </div>
+        <h2 class="font-semibold text-gray-100 leading-snug group-hover:text-blue-300 transition">{{ a.title }}</h2>
+        {% if a.excerpt %}<p class="mt-2 text-sm text-gray-400 line-clamp-3">{{ a.excerpt }}</p>{% endif %}
+        <div class="mt-3 pt-3 border-t border-gray-800 flex items-center justify-between text-xs text-gray-500">
+          <div class="flex flex-wrap gap-1">
+            {% for t in a.tags[:3] %}<span class="text-gray-400">#{{ t }}</span>{% endfor %}
+          </div>
+          {% if a.source_url %}<span class="text-gray-600">▶ Watch</span>{% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    {% if pages > 1 %}
+    <div class="mt-6 flex items-center justify-center gap-2">
+      {% for p in range(1, pages + 1) %}
+        {% if p == page %}
+          <span class="px-3 py-1 rounded bg-blue-600 text-white text-sm">{{ p }}</span>
+        {% else %}
+          <a href="/?page={{ p }}{% if q %}&q={{ q }}{% endif %}{% if selected_category %}&category={{ selected_category }}{% endif %}{% if selected_channel %}&channel={{ selected_channel }}{% endif %}{% if selected_tag %}&tag={{ selected_tag }}{% endif %}"
+             class="px-3 py-1 rounded bg-gray-800 text-gray-400 text-sm hover:bg-gray-700">{{ p }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% else %}
+    <div class="bg-gray-900 border border-gray-800 rounded-lg p-12 text-center">
+      <p class="text-gray-400">No articles found.</p>
+      {% if q %}<p class="mt-2 text-sm text-gray-600">Try different keywords, or <a href="/submit" class="text-blue-400 underline">submit a video</a> to grow the knowledge base.</p>{% endif %}
+    </div>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}
