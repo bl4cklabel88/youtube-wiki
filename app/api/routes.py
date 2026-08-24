@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from typing import Optional
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, Header
 
 from ..config import settings
 from ..database import (
@@ -17,7 +17,7 @@ from ..database import (
     set_article_tags,
     update_article,
 )
-from ..scraper.youtube import YouTubeScraper, extract_video_id
+from ..scraper.youtube import YouTubeScraper, extract_video_id, validate_youtube_url
 from ..wiki.models import Article
 from ..wiki.search import search as wiki_search
 
@@ -30,6 +30,15 @@ def get_scraper() -> YouTubeScraper:
         rate_limit_seconds=settings.rate_limit_seconds,
         max_retries=settings.max_retries,
     )
+
+
+def verify_api_key(x_api_key: Optional[str] = Header(None)) -> None:
+    """Verify API key for protected endpoints."""
+    if not settings.admin_password or settings.admin_password == "changeme":
+        raise HTTPException(500, "Server not properly configured - admin password required")
+    
+    if not x_api_key or x_api_key != settings.admin_password:
+        raise HTTPException(401, "Invalid or missing API key. Include X-API-Key header.")
 
 
 @router.get("/health")
@@ -83,6 +92,10 @@ def get_article_detail(article_id: int):
 @router.post("/submit")
 def submit_video(url: str = Query(..., description="YouTube video URL/ID")):
     """Submit a video URL for processing (queued asynchronously)."""
+    # Validate URL to prevent SSRF if it looks like a URL
+    if "://" in url and not validate_youtube_url(url):
+        raise HTTPException(400, f"Invalid or non-YouTube URL rejected: {url!r}")
+        
     video_id = extract_video_id(url)
     if not video_id:
         raise HTTPException(400, f"Could not extract a YouTube video ID from {url!r}")
@@ -130,15 +143,23 @@ def channels():
 
 
 @router.post("/channels")
-def add_channel(url: str = Query(...), name: Optional[str] = None,
-                type_: str = Query("channel", pattern="^(channel|playlist|video)$")):
+def add_channel(
+    url: str = Query(...), 
+    name: Optional[str] = None,
+    type_: str = Query("channel", pattern="^(channel|playlist|video)$"),
+    _: None = Depends(verify_api_key)
+):
+    # Validate URL to prevent SSRF
+    if "://" in url and not validate_youtube_url(url):
+        raise HTTPException(400, f"Invalid or non-YouTube URL rejected: {url!r}")
+        
     with get_conn() as conn:
         sid = add_source(conn, url, type_, name, auto_scrape=True)
     return {"ok": True, "id": sid}
 
 
 @router.delete("/channels/{source_id}")
-def delete_channel(source_id: int):
+def delete_channel(source_id: int, _: None = Depends(verify_api_key)):
     with get_conn() as conn:
         remove_source(conn, source_id)
     return {"ok": True}

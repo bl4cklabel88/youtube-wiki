@@ -12,6 +12,7 @@ import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urlparse
 
 import yt_dlp
 
@@ -54,17 +55,44 @@ class TranscriptResult:
         return "\n".join(s.text for s in self.segments)
 
 
+def validate_youtube_url(url: str) -> bool:
+    """Validate that URL is a legitimate YouTube domain to prevent SSRF."""
+    try:
+        parsed = urlparse(url.lower())
+        allowed_domains = {
+            "youtube.com", "www.youtube.com", "m.youtube.com", 
+            "youtu.be", "www.youtu.be"
+        }
+        return parsed.netloc in allowed_domains and parsed.scheme in ("http", "https")
+    except Exception:
+        return False
+
+
 def extract_video_id(text: str) -> Optional[str]:
-    """Extract an 11-char YouTube video ID from a URL or bare ID string."""
+    """Extract an 11-char YouTube video ID from a URL or bare ID string.
+    
+    Validates URLs to ensure they're from YouTube domains to prevent SSRF.
+    """
     text = text.strip()
+    
+    # If it looks like a URL, validate the domain first
+    if "://" in text and not validate_youtube_url(text):
+        return None
+    
+    # If it's exactly an 11-char ID, allow it
     if re.fullmatch(r"[A-Za-z0-9_-]{11}", text):
         return text
+        
+    # Extract from validated YouTube URLs
     m = YOUTUBE_ID_RE.search(text)
     if m:
         return m.group(1)
-    # Last-resort: any 11-char token in the string
-    for tok in re.findall(r"[A-Za-z0-9_-]{11}", text):
-        return tok
+        
+    # Last-resort: any 11-char token in the string (only if no URL detected)
+    if "://" not in text:
+        for tok in re.findall(r"[A-Za-z0-9_-]{11}", text):
+            return tok
+            
     return None
 
 
@@ -127,6 +155,11 @@ class YouTubeScraper:
 
     def fetch_video_metadata(self, url_or_id: str) -> Optional[VideoMeta]:
         """Fetch metadata for a single video via yt-dlp."""
+        # Validate URL if it contains a protocol to prevent SSRF
+        if "://" in url_or_id and not validate_youtube_url(url_or_id):
+            logger.error("Invalid or non-YouTube URL rejected: %r", url_or_id)
+            return None
+            
         video_id = extract_video_id(url_or_id)
         if not video_id:
             logger.error("Could not extract video ID from %r", url_or_id)
@@ -178,6 +211,11 @@ class YouTubeScraper:
 
         Uses yt-dlp's flat extraction to avoid downloading every page fully.
         """
+        # Validate channel URL to prevent SSRF
+        if not validate_youtube_url(channel_url):
+            logger.error("Invalid or non-YouTube channel URL rejected: %r", channel_url)
+            return []
+            
         metas: list[VideoMeta] = []
         seen: set[str] = set()
         opts = self._ydl_opts()
@@ -223,6 +261,12 @@ class YouTubeScraper:
         """List videos from a playlist URL or bare playlist ID."""
         if re.fullmatch(r"[A-Za-z0-9_-]+", playlist_url.strip()) and "youtube" not in playlist_url:
             playlist_url = f"https://www.youtube.com/playlist?list={playlist_url.strip()}"
+        
+        # Validate playlist URL to prevent SSRF
+        if not validate_youtube_url(playlist_url):
+            logger.error("Invalid or non-YouTube playlist URL rejected: %r", playlist_url)
+            return []
+            
         return self.list_channel_videos(playlist_url)
 
     # -- transcripts ----------------------------------------------------------

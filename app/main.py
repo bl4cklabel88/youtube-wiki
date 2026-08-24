@@ -8,6 +8,7 @@ import secrets
 from pathlib import Path
 from typing import Optional
 
+import os
 from fastapi import Cookie, Depends, FastAPI, Form, HTTPException, Query, Request, Response
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
@@ -32,6 +33,13 @@ from .wiki.search import search as wiki_search
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
+
+if settings.admin_password == "changeme" or settings.secret_key == "changeme":
+    import sys
+    logger.critical("CRITICAL SECURITY ERROR: Application is starting with default 'changeme' credentials.")
+    logger.critical("Set ADMIN_PASSWORD and SECRET_KEY environment variables to secure values.")
+    logger.critical("Refusing to start.")
+    sys.exit(1)
 
 ensure_dirs()
 init_db()
@@ -92,8 +100,9 @@ def login(request: Request, password: str = Form(...), next_url: str = Form("/ad
     return RedirectResponse(next_url, status_code=303)
 
 
-@app.get("/logout")
-def logout(request: Request):
+@app.post("/logout")
+def logout(request: Request, csrf_token: str = Form(...)):
+    verify_csrf(request, csrf_token)
     request.session.clear()
     return RedirectResponse("/", status_code=303)
 
@@ -103,9 +112,16 @@ def logout(request: Request):
 # ---------------------------------------------------------------------------
 
 def _ctx(request: Request, **extra) -> dict:
-    ctx = {"request": request, "admin": is_admin(request)}
+    if "csrf_token" not in request.session:
+        request.session["csrf_token"] = secrets.token_hex(32)
+    ctx = {"request": request, "admin": is_admin(request), "csrf_token": request.session["csrf_token"]}
     ctx.update(extra)
     return ctx
+
+def verify_csrf(request: Request, csrf_token: str = Form(...)) -> None:
+    expected = request.session.get("csrf_token")
+    if not expected or not hmac.compare_digest(csrf_token, expected):
+        raise HTTPException(403, "Invalid or missing CSRF token")
 
 
 # ---------------------------------------------------------------------------
@@ -218,7 +234,8 @@ def submit_page(request: Request):
 
 
 @app.post("/submit", response_class=HTMLResponse)
-def submit_form(request: Request, url: str = Form(...)):
+def submit_form(request: Request, url: str = Form(...), csrf_token: str = Form(...)):
+    verify_csrf(request, csrf_token)
     from .api.routes import submit_video as _submit_video
     from fastapi.exceptions import HTTPException as HE
     try:
@@ -235,7 +252,8 @@ def submit_form(request: Request, url: str = Form(...)):
 
 @app.post("/admin/sources/add")
 def admin_add_source(request: Request, url: str = Form(...), type_: str = Form("channel"),
-                     name: Optional[str] = Form(None)):
+                     name: Optional[str] = Form(None), csrf_token: str = Form(...)):
+    verify_csrf(request, csrf_token)
     require_admin(request)
     from .database import add_source
     with get_conn() as conn:
@@ -244,7 +262,8 @@ def admin_add_source(request: Request, url: str = Form(...), type_: str = Form("
 
 
 @app.post("/admin/sources/{source_id}/delete")
-def admin_delete_source(request: Request, source_id: int):
+def admin_delete_source(request: Request, source_id: int, csrf_token: str = Form(...)):
+    verify_csrf(request, csrf_token)
     require_admin(request)
     with get_conn() as conn:
         remove_source(conn, source_id)
@@ -252,14 +271,16 @@ def admin_delete_source(request: Request, source_id: int):
 
 
 @app.post("/admin/jobs/reset-stuck")
-def admin_reset_stuck(request: Request):
+def admin_reset_stuck(request: Request, csrf_token: str = Form(...)):
+    verify_csrf(request, csrf_token)
     require_admin(request)
     queue.reset_stuck()
     return RedirectResponse("/admin/queue", status_code=303)
 
 
 @app.post("/admin/articles/{article_id}/publish")
-def admin_publish_article(request: Request, article_id: int):
+def admin_publish_article(request: Request, article_id: int, csrf_token: str = Form(...)):
+    verify_csrf(request, csrf_token)
     require_admin(request)
     art = Article.get(article_id)
     if art:
@@ -268,7 +289,8 @@ def admin_publish_article(request: Request, article_id: int):
 
 
 @app.post("/admin/articles/{article_id}/unpublish")
-def admin_unpublish_article(request: Request, article_id: int):
+def admin_unpublish_article(request: Request, article_id: int, csrf_token: str = Form(...)):
+    verify_csrf(request, csrf_token)
     require_admin(request)
     art = Article.get(article_id)
     if art:

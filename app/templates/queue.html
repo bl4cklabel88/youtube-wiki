@@ -5,6 +5,7 @@
   <div class="flex items-center justify-between mb-6">
     <h1 class="text-2xl font-bold text-white">Job Queue</h1>
     <form action="/admin/jobs/reset-stuck" method="post">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
       <button class="rounded-md bg-gray-800 hover:bg-gray-700 px-3 py-1.5 text-sm text-gray-300">Reset stuck jobs</button>
     </form>
   </div>

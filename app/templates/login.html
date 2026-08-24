@@ -11,6 +11,7 @@
     {% endif %}
 
     <form action="/login" method="post">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
       <input type="hidden" name="next_url" value="{{ next_url or '/admin' }}">
       <label class="block text-sm font-medium text-gray-300 mb-2" for="password">Password</label>
       <input type="password" id="password" name="password" required autofocus

@@ -55,7 +55,10 @@
             </svg>
           </form>
           {% if admin %}
-          <a href="/logout" class="text-xs text-gray-500 hover:text-gray-300">Sign out</a>
+          <form action="/logout" method="post" class="inline m-0 p-0">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+            <button type="submit" class="text-xs text-gray-500 hover:text-gray-300 bg-transparent border-none cursor-pointer">Sign out</button>
+          </form>
           {% else %}
           <a href="/login" class="text-xs text-gray-500 hover:text-gray-300">Admin</a>
           {% endif %}

@@ -13,6 +13,7 @@
   {% endif %}
 
   <form action="/submit" method="post" class="bg-gray-900 border border-gray-800 rounded-xl p-6">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
     <label class="block text-sm font-medium text-gray-300 mb-2" for="url">YouTube URL or Video ID</label>
     <input type="text" id="url" name="url" required value="{{ url or '' }}"
            placeholder="https://www.youtube.com/watch?v=…"
