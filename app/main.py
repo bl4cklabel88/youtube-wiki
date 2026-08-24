@@ -304,10 +304,17 @@ def admin_unpublish_article(request: Request, article_id: int, csrf_token: str =
 
 @app.post("/internal/worker/tick")
 def worker_tick(request: Request):
-    """Claim and run one queued job. Protected by ADMIN_PASSWORD via header."""
+    """Claim and run one queued job. Protected by WORKER_TOKEN via header."""
     token = request.headers.get("X-Worker-Token", "")
-    if not settings.admin_password or not hmac.compare_digest(token, settings.admin_password):
+    
+    # Check WORKER_TOKEN first, fallback to ADMIN_PASSWORD for legacy support
+    expected_token = getattr(settings, "worker_token", None)
+    if expected_token == "changeme" or not expected_token:
+        expected_token = settings.admin_password
+        
+    if not expected_token or expected_token == "changeme" or not hmac.compare_digest(token, expected_token):
         raise HTTPException(403, "Bad worker token")
+        
     job = queue.claim()
     if not job:
         return {"ran": False, "message": "no pending jobs"}

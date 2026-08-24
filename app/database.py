@@ -484,7 +484,10 @@ def search_articles(conn: sqlite3.Connection, query: str, *, category: Optional[
 
 def _fts_query(raw: str) -> str:
     """Build a safe FTS5 MATCH expression from user input."""
-    terms = raw.replace('"', "").replace("'", "").split()
+    import re
+    # Strip everything except alphanumeric, spaces, and hyphens to prevent FTS5 syntax errors
+    clean = re.sub(r'[^a-zA-Z0-9\-\s]', '', raw)
+    terms = clean.split()
     if not terms:
         return "*"
     return " OR ".join(f'"{t}"*' for t in terms)

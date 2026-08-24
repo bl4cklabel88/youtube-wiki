@@ -44,6 +44,7 @@ class Settings(BaseSettings):
     # --- Admin --------------------------------------------------------------
     admin_password: str = "changeme"
     secret_key: str = "changeme"
+    worker_token: str = "changeme"
 
     # --- Server -------------------------------------------------------------
     host: str = "0.0.0.0"

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from typing import Optional
 
+from fastapi.concurrency import run_in_threadpool
 from fastapi import APIRouter, Depends, HTTPException, Query, Header
 
 from ..config import settings
@@ -90,7 +91,7 @@ def get_article_detail(article_id: int):
 
 
 @router.post("/submit")
-def submit_video(url: str = Query(..., description="YouTube video URL/ID")):
+async def submit_video(url: str = Query(..., description="YouTube video URL/ID")):
     """Submit a video URL for processing (queued asynchronously)."""
     # Validate URL to prevent SSRF if it looks like a URL
     if "://" in url and not validate_youtube_url(url):
@@ -113,9 +114,9 @@ def submit_video(url: str = Query(..., description="YouTube video URL/ID")):
             return {"ok": True, "video_id": video_id, "status": row["status"],
                     "message": "Video already known; job queued if not processed."}
 
-    # Unknown video: try to fetch metadata synchronously (best-effort)
+    # Unknown video: try to fetch metadata asynchronously (best-effort)
     scraper = get_scraper()
-    meta = scraper.fetch_video_metadata(canonical)
+    meta = await run_in_threadpool(scraper.fetch_video_metadata, canonical)
     with get_conn() as conn:
         if meta:
             from ..database import upsert_video, enqueue_job
