@@ -92,8 +92,9 @@ def login(request: Request, password: str = Form(...), next_url: str = Form("/ad
     expected = settings.admin_password
     if not expected or not hmac.compare_digest(password, expected):
         return templates.TemplateResponse(
-            "login.html",
-            {"request": request, "admin": False, "error": "Invalid password"},
+            request=request,
+            name="login.html",
+            context={"request": request, "admin": False, "error": "Invalid password"},
             status_code=401,
         )
     request.session["admin"] = True
