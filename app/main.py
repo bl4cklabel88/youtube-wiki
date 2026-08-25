@@ -46,8 +46,23 @@ ensure_dirs()
 init_db()
 
 app = FastAPI(title="YouTube Wiki", version="0.1.0")
+class SkipSessionMiddleware:
+    def __init__(self, app, secret_key, session_cookie, max_age):
+        self.session_app = SessionMiddleware(
+            app, 
+            secret_key=secret_key, 
+            session_cookie=session_cookie, 
+            max_age=max_age
+        )
+        self.app = app
+        
+    async def __call__(self, scope, receive, send):
+        if scope["type"] == "http" and scope.get("path", "").startswith("/mcp"):
+            return await self.app(scope, receive, send)
+        return await self.session_app(scope, receive, send)
+
 app.add_middleware(
-    SessionMiddleware,
+    SkipSessionMiddleware,
     secret_key=settings.secret_key,
     session_cookie="youtube_wiki_session",
     max_age=86400 * 7,
