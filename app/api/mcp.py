@@ -164,24 +164,15 @@ async def _call_tool(ctx, params) -> CallToolResult:
 
 
 
-from mcp.server.mcpserver import MCPServer
-from mcp.types import Tool, TextContent
+def create_mcp_server() -> Server:
+    """Build the MCP low-level server wired to the wiki."""
+    return Server("youtube-wiki", version="0.1.0",
+                  title="YouTube Wiki MCP",
+                  description="Automotive diagnostic knowledge base tools",
+                  on_list_tools=_list_tools,
+                  on_call_tool=_call_tool)
 
-mcp = MCPServer("youtube-wiki", version="0.1.0")
-
-@mcp.list_tools()
-async def handle_list_tools() -> list[Tool]:
-    return TOOLS
-
-@mcp.call_tool()
-async def handle_call_tool(name: str, arguments: dict) -> list[TextContent]:
-    res = _handle_tool(name, arguments)
-    if hasattr(res, "content"):
-        return res.content
-    return [TextContent(type="text", text=str(res))]
-
-def create_mcp_server():
-    return mcp._lowlevel_server
-
-def get_mcp_app(server=None):
-    return mcp.streamable_http_app(streamable_http_path="/sse")
+def get_mcp_app(server: Optional[Server] = None):
+    """Return a Starlette app for the MCP server (mounted at /mcp)."""
+    server = server or create_mcp_server()
+    return server.streamable_http_app(streamable_http_path="/sse")
