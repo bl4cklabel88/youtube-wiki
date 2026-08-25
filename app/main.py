@@ -336,20 +336,7 @@ def worker_tick(request: Request):
         return {"ran": False, "message": "no pending jobs"}
     return {"ran": True, "job": job}
 
-# --- ASGI Dispatcher for MCP ---
-# We wrap the FastAPI app completely to avoid its middleware stack for MCP SSE routes
-from .api.mcp import get_mcp_app
-mcp_app = get_mcp_app()
-fastapi_app = app
 
-async def asgi_dispatcher(scope, receive, send):
-    if scope["type"] == "http" and scope["path"].startswith("/mcp"):
-        # Strip the /mcp prefix for the streamable_http_app
-        scope = dict(scope)
-        scope["path"] = scope["path"][4:]
-        if not scope["path"]:
-            scope["path"] = "/"
-        return await mcp_app(scope, receive, send)
-    return await fastapi_app(scope, receive, send)
-
-app = asgi_dispatcher
+# MCP server mounted at /mcp
+from .api.mcp import mcp
+app.mount("/mcp", mcp.sse_app)
