@@ -84,7 +84,7 @@ def require_admin(request: Request) -> None:
 
 @app.get("/login", response_class=HTMLResponse)
 def login_page(request: Request):
-    return templates.TemplateResponse("login.html", {"request": request, "admin": False})
+    return templates.TemplateResponse(request=request, name="login.html", context={"request": request, "admin": False})
 
 
 @app.post("/login")
@@ -164,7 +164,7 @@ def index(
             })
         total = len(arts)
 
-    return templates.TemplateResponse("index.html", _ctx(request, **{
+    return templates.TemplateResponse(request=request, name="index.html", context=_ctx(request, **{
         "articles": articles,
         "total": total,
         "q": q or "",
@@ -185,7 +185,7 @@ def article_page(request: Request, slug: str):
     if not art:
         raise HTTPException(404, "Article not found")
     html = render_markdown(art.content_markdown)
-    return templates.TemplateResponse("article.html", _ctx(request, **{
+    return templates.TemplateResponse(request=request, name="article.html", context=_ctx(request, **{
         "article": art,
         "html_content": html,
     }))
@@ -208,7 +208,7 @@ def admin_page(request: Request):
         videos_stats = dict(conn.execute(
             "SELECT status, COUNT(*) AS n FROM videos GROUP BY status"
         ).fetchall())
-    return templates.TemplateResponse("admin.html", _ctx(request, **{
+    return templates.TemplateResponse(request=request, name="admin.html", context=_ctx(request, **{
         "sources": sources,
         "jobs": jobs,
         "drafts": drafts,
@@ -222,7 +222,7 @@ def queue_page(request: Request):
     if not is_admin(request):
         return RedirectResponse("/login?next_url=/admin/queue", status_code=303)
     jobs = queue.list(limit=200)
-    return templates.TemplateResponse("queue.html", _ctx(request, **{
+    return templates.TemplateResponse(request=request, name="queue.html", context=_ctx(request, **{
         "jobs": jobs,
         "queue_counts": queue.counts(),
     }))
@@ -230,7 +230,7 @@ def queue_page(request: Request):
 
 @app.get("/submit", response_class=HTMLResponse)
 def submit_page(request: Request):
-    return templates.TemplateResponse("submit.html", _ctx(request))
+    return templates.TemplateResponse(request=request, name="submit.html", context=_ctx(request))
 
 
 @app.post("/submit", response_class=HTMLResponse)
@@ -245,7 +245,7 @@ def submit_form(request: Request, url: str = Form(...), csrf_token: str = Form(.
     except HE as exc:
         msg = str(exc.detail)
         ok = False
-    return templates.TemplateResponse("submit.html", _ctx(request, **{
+    return templates.TemplateResponse(request=request, name="submit.html", context=_ctx(request, **{
         "submitted": True, "ok": ok, "message": msg, "url": url,
     }))
 
