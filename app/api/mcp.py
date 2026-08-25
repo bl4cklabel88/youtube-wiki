@@ -176,4 +176,5 @@ def create_mcp_server() -> Server:
 def get_mcp_app(server: Optional[Server] = None):
     """Return a Starlette app for the MCP server (mounted at /mcp)."""
     server = server or create_mcp_server()
-    return server.streamable_http_app(streamable_http_path="/mcp")
+    # Mounted at /mcp in main.py, so internal path is /
+    return server.streamable_http_app(streamable_http_path="/")
