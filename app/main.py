@@ -68,15 +68,14 @@ app.include_router(api_router)
 mcp_server = create_mcp_server()
 mcp_sse = SseServerTransport("/mcp/messages")
 
+@app.get("/mcp/sse")
 async def mcp_handle_sse(request: Request):
     async with mcp_sse.connect_sse(request.scope, request.receive, request._send) as streams:
         await mcp_server.run(streams[0], streams[1], mcp_server.create_initialization_options())
 
+@app.post("/mcp/messages")
 async def mcp_handle_messages(request: Request):
     await mcp_sse.handle_post_message(request.scope, request.receive, request._send)
-
-app.add_route("/mcp/sse", mcp_handle_sse, methods=["GET"])
-app.add_route("/mcp/messages", mcp_handle_messages, methods=["POST"])
 
 queue = JobQueue()
 
