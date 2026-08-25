@@ -165,9 +165,10 @@ async def _call_tool(ctx, params) -> CallToolResult:
 
 def create_mcp_server() -> Server:
     """Build the MCP low-level server wired to the wiki."""
+    from mcp.types import ListToolsRequest, CallToolRequest
     server = Server("youtube-wiki", version="0.1.0",
                     title="YouTube Wiki MCP",
                     description="Automotive diagnostic knowledge base tools")
-    server.on_list_tools = _list_tools
-    server.on_call_tool = _call_tool
+    server.add_request_handler(ListToolsRequest, _list_tools)
+    server.add_request_handler(CallToolRequest, _call_tool)
     return server
