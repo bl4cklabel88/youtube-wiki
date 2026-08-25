@@ -172,3 +172,9 @@ def create_mcp_server() -> Server:
     server.add_request_handler(ListToolsRequest, _list_tools)
     server.add_request_handler(CallToolRequest, _call_tool)
     return server
+
+def get_mcp_app(server: Optional[Server] = None):
+    """Return a Starlette app for the MCP server (mounted at /mcp)."""
+    server = server or create_mcp_server()
+    # Starlette mount strips prefix, so the sub-app sees "/"
+    return server.streamable_http_app(streamable_http_path="/sse")

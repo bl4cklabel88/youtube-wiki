@@ -64,18 +64,9 @@ app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 # REST API
 app.include_router(api_router)
 
-# Setup MCP server routes explicitly
-mcp_server = create_mcp_server()
-mcp_sse = SseServerTransport("/mcp/messages")
-
-@app.get("/mcp/sse")
-async def mcp_handle_sse(request: Request):
-    async with mcp_sse.connect_sse(request.scope, request.receive, request._send) as streams:
-        await mcp_server.run(streams[0], streams[1], mcp_server.create_initialization_options())
-
-@app.post("/mcp/messages")
-async def mcp_handle_messages(request: Request):
-    await mcp_sse.handle_post_message(request.scope, request.receive, request._send)
+# MCP server mounted at /mcp
+from .api.mcp import get_mcp_app
+app.mount("/mcp", get_mcp_app())
 
 queue = JobQueue()
 
