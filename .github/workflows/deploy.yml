@@ -1,0 +1,26 @@
+name: Deploy YouTube Wiki
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        uses: webfactory/ssh-action@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Deploy via rsync and docker-compose
+        run: |
+          # Sync files to VPS
+          rsync -avz --exclude '.git' --exclude 'data' --exclude '.github' ./ root@${{ secrets.VPS_IP }}:/opt/youtube-wiki/
+          
+          # Run docker-compose on the VPS
+          ssh -o StrictHostKeyChecking=no root@${{ secrets.VPS_IP }} "cd /opt/youtube-wiki && docker compose up -d --build"

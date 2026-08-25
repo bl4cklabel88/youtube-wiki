@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - wiki_data:/app/data
+    env_file:
+      - .env
+
+  worker:
+    build: .
+    restart: always
+    command: ["python", "scripts/worker.py", "--loop"]
+    volumes:
+      - wiki_data:/app/data
+    env_file:
+      - .env
+
+volumes:
+  wiki_data:
