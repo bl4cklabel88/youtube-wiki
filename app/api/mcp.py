@@ -173,3 +173,7 @@ def create_mcp_server() -> Server:
     server.add_request_handler(CallToolRequest, _call_tool)
     return server
 
+
+def get_mcp_app(server: Optional[Server] = None):
+    server = server or create_mcp_server()
+    return server.streamable_http_app(streamable_http_path="/sse")

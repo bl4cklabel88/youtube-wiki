@@ -79,25 +79,7 @@ app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 # REST API
 app.include_router(api_router)
 
-# Setup MCP server routes explicitly via raw ASGI to bypass FastAPI response formatting
-mcp_server = create_mcp_server()
-mcp_sse = SseServerTransport("/mcp/messages")
 
-async def mcp_sse_asgi(scope, receive, send):
-    if scope["type"] == "http":
-        from fastapi import Request
-        request = Request(scope, receive, send)
-        async with mcp_sse.connect_sse(request.scope, request.receive, request._send) as streams:
-            await mcp_server.run(streams[0], streams[1], mcp_server.create_initialization_options())
-
-async def mcp_messages_asgi(scope, receive, send):
-    if scope["type"] == "http":
-        from fastapi import Request
-        request = Request(scope, receive, send)
-        await mcp_sse.handle_post_message(request.scope, request.receive, request._send)
-
-app.mount("/mcp/sse", mcp_sse_asgi)
-app.mount("/mcp/messages", mcp_messages_asgi)
 
 queue = JobQueue()
 
@@ -353,3 +335,21 @@ def worker_tick(request: Request):
     if not job:
         return {"ran": False, "message": "no pending jobs"}
     return {"ran": True, "job": job}
+
+# --- ASGI Dispatcher for MCP ---
+# We wrap the FastAPI app completely to avoid its middleware stack for MCP SSE routes
+from .api.mcp import get_mcp_app
+mcp_app = get_mcp_app()
+fastapi_app = app
+
+async def asgi_dispatcher(scope, receive, send):
+    if scope["type"] == "http" and scope["path"].startswith("/mcp"):
+        # Strip the /mcp prefix for the streamable_http_app
+        scope = dict(scope)
+        scope["path"] = scope["path"][4:]
+        if not scope["path"]:
+            scope["path"] = "/"
+        return await mcp_app(scope, receive, send)
+    return await fastapi_app(scope, receive, send)
+
+app = asgi_dispatcher
