@@ -269,8 +269,7 @@ def worker_tick(request: Request):
 
 
 # --- MCP ASGI WRAPPER ---
-from .api.mcp import get_mcp_app
-mcp_app = get_mcp_app()
+from .api.mcp import mcp_app
 fastapi_app = app
 
 async def asgi_dispatcher(scope, receive, send):
