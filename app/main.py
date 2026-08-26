@@ -1,22 +1,9 @@
-"""FastAPI application: REST API + MCP server + Jinja2 wiki UI."""
-from __future__ import annotations
-
-import hashlib
-import hmac
-import logging
-import secrets
-from pathlib import Path
-from typing import Optional
-
 import os
 from fastapi import Cookie, Depends, FastAPI, Form, HTTPException, Query, Request, Response
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from starlette.middleware.sessions import SessionMiddleware
-
-from .api.mcp import create_mcp_server
-from mcp.server.sse import SseServerTransport
 from .api.routes import router as api_router
 from .config import ensure_dirs, settings
 from .database import (
@@ -27,9 +14,11 @@ from .database import (
     list_videos,
     remove_source,
 )
-from .scraper.queue import JobQueue
-from .wiki.models import Article, Category, Channel, Tag
-from .wiki.render import render_markdown
+import hmac
+import secrets
+import logging
+from app.scraper.queue import JobQueue
+from .wiki.models import Article
 from .wiki.search import search as wiki_search
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -46,40 +35,22 @@ ensure_dirs()
 init_db()
 
 app = FastAPI(title="YouTube Wiki", version="0.1.0")
-class SkipSessionMiddleware:
-    def __init__(self, app, secret_key, session_cookie, max_age):
-        self.session_app = SessionMiddleware(
-            app, 
-            secret_key=secret_key, 
-            session_cookie=session_cookie, 
-            max_age=max_age
-        )
-        self.app = app
-        
-    async def __call__(self, scope, receive, send):
-        if scope["type"] == "http" and scope.get("path", "").startswith("/mcp"):
-            return await self.app(scope, receive, send)
-        return await self.session_app(scope, receive, send)
-
 app.add_middleware(
-    SkipSessionMiddleware,
+    SessionMiddleware,
     secret_key=settings.secret_key,
     session_cookie="youtube_wiki_session",
     max_age=86400 * 7,
 )
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-templates = Jinja2Templates(directory=str(BASE_DIR / "app" / "templates"))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 
-# Mount static assets (served from app/static or a symlink to data/)
-STATIC_DIR = BASE_DIR / "app" / "static"
-STATIC_DIR.mkdir(exist_ok=True)
+templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 
 # REST API
 app.include_router(api_router)
-
-
 
 queue = JobQueue()
 
@@ -91,16 +62,15 @@ queue = JobQueue()
 def is_admin(request: Request) -> bool:
     return bool(request.session.get("admin"))
 
-
-def require_admin(request: Request) -> None:
+def require_admin(request: Request):
     if not is_admin(request):
-        raise HTTPException(401, "Admin authentication required")
-
+        raise HTTPException(status_code=401, detail="Unauthorized")
 
 @app.get("/login", response_class=HTMLResponse)
-def login_page(request: Request):
-    return templates.TemplateResponse(request=request, name="login.html", context={"request": request, "admin": False})
-
+def login_page(request: Request, next_url: str = "/admin"):
+    if is_admin(request):
+        return RedirectResponse(next_url, status_code=303)
+    return templates.TemplateResponse(request=request, name="login.html", context={"request": request, "admin": False, "next_url": next_url})
 
 @app.post("/login")
 def login(request: Request, password: str = Form(...), next_url: str = Form("/admin")):
@@ -109,23 +79,17 @@ def login(request: Request, password: str = Form(...), next_url: str = Form("/ad
         return templates.TemplateResponse(
             request=request,
             name="login.html",
-            context={"request": request, "admin": False, "error": "Invalid password"},
+            context={"request": request, "admin": False, "error": "Invalid password", "next_url": next_url},
             status_code=401,
         )
     request.session["admin"] = True
     return RedirectResponse(next_url, status_code=303)
-
 
 @app.post("/logout")
 def logout(request: Request, csrf_token: str = Form(...)):
     verify_csrf(request, csrf_token)
     request.session.clear()
     return RedirectResponse("/", status_code=303)
-
-
-# ---------------------------------------------------------------------------
-# Templates context
-# ---------------------------------------------------------------------------
 
 def _ctx(request: Request, **extra) -> dict:
     if "csrf_token" not in request.session:
@@ -139,46 +103,18 @@ def verify_csrf(request: Request, csrf_token: str = Form(...)) -> None:
     if not expected or not hmac.compare_digest(csrf_token, expected):
         raise HTTPException(403, "Invalid or missing CSRF token")
 
-
 # ---------------------------------------------------------------------------
 # Public pages
 # ---------------------------------------------------------------------------
 
 @app.get("/", response_class=HTMLResponse)
-def index(
-    request: Request,
-    q: Optional[str] = Query(None),
-    category: Optional[str] = Query(None),
-    tag: Optional[str] = Query(None),
-    channel: Optional[str] = Query(None),
-    page: int = Query(1, ge=1),
-):
-    per_page = 36
-    offset = (page - 1) * per_page
-
-    if q and q.strip():
-        results, total = wiki_search(q, category=category, tag=tag, limit=per_page, offset=offset)
-        articles = []
-        for r in results:
-            articles.append({
-                "id": r.id, "title": r.title, "slug": r.slug, "category": r.category,
-                "source_channel": r.source_channel, "source_url": r.source_url,
-                "tags": [], "status": "published", "updated_at": "",
-                "excerpt": r.snippet,
-            })
+def index(request: Request, q: str = Query(None), category: str = Query(None), tag: str = Query(None)):
+    if q or category or tag:
+        articles, total = wiki_search(q or "", category=category, tag=tag, limit=100)
     else:
-        arts = Article.list(status="published", category=category, channel=channel, tag=tag,
-                            limit=per_page, offset=offset)
-        articles = []
-        for a in arts:
-            from .wiki.render import strip_markdown
-            articles.append({
-                "id": a.id, "title": a.title, "slug": a.slug, "category": a.category,
-                "source_channel": a.source_channel, "source_url": a.source_url,
-                "tags": a.tags, "status": a.status, "updated_at": a.updated_at,
-                "excerpt": strip_markdown(a.content_markdown, 260),
-            })
-        total = len(arts)
+        with get_conn() as conn:
+            total = conn.execute("SELECT COUNT(*) FROM articles WHERE status = 'published'").fetchone()[0]
+        articles = Article.list(limit=36, offset=0, status="published")
 
     return templates.TemplateResponse(request=request, name="index.html", context=_ctx(request, **{
         "articles": articles,
@@ -186,44 +122,40 @@ def index(
         "q": q or "",
         "selected_category": category or "",
         "selected_tag": tag or "",
-        "selected_channel": channel or "",
-        "categories": Category.list(),
-        "channels": Channel.list(),
-        "tags": Tag.list(),
-        "page": page,
-        "pages": max(1, (total + per_page - 1) // per_page),
     }))
 
 
 @app.get("/article/{slug}", response_class=HTMLResponse)
-def article_page(request: Request, slug: str):
+def article_detail(request: Request, slug: str):
     art = Article.get_by_slug(slug)
     if not art:
         raise HTTPException(404, "Article not found")
+    if art.status != "published" and not is_admin(request):
+        raise HTTPException(403, "Not published")
+
+    from .wiki.render import render_markdown
     html = render_markdown(art.content_markdown)
+
     return templates.TemplateResponse(request=request, name="article.html", context=_ctx(request, **{
         "article": art,
         "html_content": html,
     }))
 
-
 # ---------------------------------------------------------------------------
-# Admin pages
+# Admin UI
 # ---------------------------------------------------------------------------
 
 @app.get("/admin", response_class=HTMLResponse)
-def admin_page(request: Request):
-    if not is_admin(request):
-        return RedirectResponse(f"/login?next_url=/admin", status_code=303)
+def admin_dashboard(request: Request):
+    require_admin(request)
     with get_conn() as conn:
-        sources = [dict(r) for r in list_sources(conn)]
-        jobs = [dict(r) for r in list_jobs(conn, limit=100)]
-        drafts = [dict(r) for r in conn.execute(
-            "SELECT * FROM articles WHERE status = 'draft' ORDER BY updated_at DESC LIMIT 50"
-        ).fetchall()]
-        videos_stats = dict(conn.execute(
-            "SELECT status, COUNT(*) AS n FROM videos GROUP BY status"
-        ).fetchall())
+        sources = list_sources(conn)
+        jobs = list_jobs(conn, limit=10)
+        videos_stats = conn.execute(
+            "SELECT status, COUNT(*) as c FROM videos GROUP BY status ORDER BY c DESC"
+        ).fetchall()
+        drafts = Article.list(limit=20, status="draft")
+
     return templates.TemplateResponse(request=request, name="admin.html", context=_ctx(request, **{
         "sources": sources,
         "jobs": jobs,
@@ -234,10 +166,10 @@ def admin_page(request: Request):
 
 
 @app.get("/admin/queue", response_class=HTMLResponse)
-def queue_page(request: Request):
-    if not is_admin(request):
-        return RedirectResponse("/login?next_url=/admin/queue", status_code=303)
-    jobs = queue.list(limit=200)
+def admin_queue(request: Request):
+    require_admin(request)
+    with get_conn() as conn:
+        jobs = list_jobs(conn, limit=100)
     return templates.TemplateResponse(request=request, name="queue.html", context=_ctx(request, **{
         "jobs": jobs,
         "queue_counts": queue.counts(),
@@ -250,17 +182,20 @@ def submit_page(request: Request):
 
 
 @app.post("/submit", response_class=HTMLResponse)
-def submit_form(request: Request, url: str = Form(...), csrf_token: str = Form(...)):
+async def submit_form(request: Request, url: str = Form(...), csrf_token: str = Form(...)):
     verify_csrf(request, csrf_token)
     from .api.routes import submit_video as _submit_video
     from fastapi.exceptions import HTTPException as HE
     try:
-        result = _submit_video(url)
-        msg = result.get("message", "Submitted")
-        ok = True
-    except HE as exc:
-        msg = str(exc.detail)
+        res = await _submit_video(url)
+        ok = res.get("ok")
+        msg = res.get("message", "Submitted")
+    except HE as e:
         ok = False
+        msg = str(e.detail)
+    except Exception as e:
+        ok = False
+        msg = str(e)
     return templates.TemplateResponse(request=request, name="submit.html", context=_ctx(request, **{
         "submitted": True, "ok": ok, "message": msg, "url": url,
     }))
@@ -268,7 +203,7 @@ def submit_form(request: Request, url: str = Form(...), csrf_token: str = Form(.
 
 @app.post("/admin/sources/add")
 def admin_add_source(request: Request, url: str = Form(...), type_: str = Form("channel"),
-                     name: Optional[str] = Form(None), csrf_token: str = Form(...)):
+                     name: str = Form(None), csrf_token: str = Form(...)):
     verify_csrf(request, csrf_token)
     require_admin(request)
     from .database import add_source
@@ -314,11 +249,7 @@ def admin_unpublish_article(request: Request, article_id: int, csrf_token: str =
     return RedirectResponse("/admin", status_code=303)
 
 
-# ---------------------------------------------------------------------------
-# Worker endpoint: claims and runs one queued job (used by cron/systemd timer)
-# ---------------------------------------------------------------------------
-
-@app.post("/internal/worker/tick")
+@app.get("/internal/worker/tick")
 def worker_tick(request: Request):
     """Claim and run one queued job. Protected by WORKER_TOKEN via header."""
     token = request.headers.get("X-Worker-Token", "")
@@ -335,7 +266,6 @@ def worker_tick(request: Request):
     if not job:
         return {"ran": False, "message": "no pending jobs"}
     return {"ran": True, "job": job}
-
 
 
 # --- MCP ASGI WRAPPER ---

@@ -1,6 +1,5 @@
-from mcp.server.lowlevel import Server
-from mcp.types import Tool, TextContent, CallToolResult, ListToolsResult
-from typing import Any, Optional
+from mcp.server.fastmcp import FastMCP
+from typing import Any
 import json
 import logging
 
@@ -11,52 +10,47 @@ from ..wiki.search import search as wiki_search
 
 logger = logging.getLogger(__name__)
 
-TOOLS = [
-    Tool(
-        name="search_articles",
-        description="Search the automotive diagnostic wiki knowledge base by keyword.",
-        inputSchema={"type": "object", "properties": {"query": {"type": "string", "description": "Search keywords"}}, "required": ["query"]},
-    ),
-    Tool(
-        name="list_channels",
-        description="List all source channels with video counts.",
-        inputSchema={"type": "object", "properties": {}},
-    ),
-]
+mcp = FastMCP("youtube-wiki", version="0.1.0")
 
-def _text(obj: Any) -> CallToolResult:
-    if isinstance(obj, (dict, list)):
-        payload = json.dumps(obj, indent=2, default=str)
-    else:
-        payload = str(obj)
-    return CallToolResult(content=[TextContent(type="text", text=payload)])
+@mcp.tool()
+def search_articles(query: str, category: str = None, tags: str = None) -> str:
+    """Search the automotive diagnostic wiki knowledge base by keyword."""
+    if tags:
+        tags = tags.split(",")[0].strip()
+    results, total = wiki_search(query, category=category, tag=tags, limit=10)
+    return json.dumps({"total": total, "results": [r.__dict__ for r in results]}, default=str)
 
-def _error(msg: str) -> CallToolResult:
-    return CallToolResult(content=[TextContent(type="text", text=msg)], isError=True)
+@mcp.tool()
+def get_article(article_id: int) -> str:
+    """Fetch a full wiki article by numeric ID."""
+    art = Article.get(article_id)
+    if not art:
+        return json.dumps({"error": f"Article {article_id} not found"})
+    return json.dumps({
+        "id": art.id, "title": art.title, "slug": art.slug,
+        "category": art.category, "source_channel": art.source_channel,
+        "source_url": art.source_url, "tags": art.tags,
+        "dtc_codes": art.dtc_codes, "vehicle_refs": art.vehicle_refs,
+        "tools_used": art.tools_used, "status": art.status,
+        "content_markdown": art.content_markdown,
+    })
 
-async def _list_tools(*args, **kwargs) -> ListToolsResult:
-    return ListToolsResult(tools=TOOLS)
+@mcp.tool()
+def list_categories() -> str:
+    """List all article categories with counts."""
+    with get_conn() as conn:
+        rows = conn.execute(
+            "SELECT category, COUNT(*) AS count FROM articles WHERE category IS NOT NULL AND category != '' GROUP BY category ORDER BY count DESC"
+        ).fetchall()
+    return json.dumps({"categories": [dict(r) for r in rows]})
 
-async def _call_tool(ctx, params) -> CallToolResult:
-    name = params.name
-    args = params.arguments or {}
-    try:
-        if name == "search_articles":
-            results, total = wiki_search(args.get("query", ""), limit=10)
-            return _text({"total": total, "results": [r.__dict__ for r in results]})
-        if name == "list_channels":
-            with get_conn() as conn:
-                rows = conn.execute("SELECT channel, COUNT(*) AS count FROM videos GROUP BY channel").fetchall()
-            return _text([dict(r) for r in rows])
-        return _error("Unknown tool")
-    except Exception as exc:
-        logger.exception("MCP tool %s failed", name)
-        return _error(f"Error: {exc}")
+@mcp.tool()
+def list_channels() -> str:
+    """List all source channels with video counts."""
+    with get_conn() as conn:
+        rows = conn.execute(
+            "SELECT channel, COUNT(*) AS count FROM videos GROUP BY channel ORDER BY count DESC"
+        ).fetchall()
+    return json.dumps({"channels": [dict(r) for r in rows]})
 
-def create_mcp_server() -> Server:
-    server = Server("youtube-wiki", version="0.1.0", on_list_tools=_list_tools, on_call_tool=_call_tool)
-    return server
-
-def get_mcp_app(server: Optional[Server] = None):
-    server = server or create_mcp_server()
-    return server.streamable_http_app(streamable_http_path="/sse")
+mcp_app = mcp.get_starlette_app()
