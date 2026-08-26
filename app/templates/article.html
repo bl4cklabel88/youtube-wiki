@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }}{% endblock %}
+{% block content %}
+<div class="max-w-4xl mx-auto">
+  <nav class="text-sm text-gray-500 mb-4">
+    <a href="/" class="hover:text-blue-400">← Back to articles</a>
+  </nav>
+
+  <article class="bg-gray-900 border border-gray-800 rounded-xl p-6 md:p-8">
+    <div class="mb-4 flex flex-wrap items-center gap-2">
+      {% if article.category %}
+      <span class="text-xs px-2 py-0.5 rounded-full bg-blue-900/60 text-blue-300">{{ article.category }}</span>
+      {% endif %}
+      {% if article.source_channel %}
+      <span class="text-xs px-2 py-0.5 rounded-full bg-gray-800 text-gray-400">{{ article.source_channel }}</span>
+      {% endif %}
+      {% if article.status == 'draft' %}
+      <span class="text-xs px-2 py-0.5 rounded-full bg-amber-900/60 text-amber-300">Draft</span>
+      {% endif %}
+    </div>
+
+    <div class="prose-kb">
+      {{ html_content | safe }}
+    </div>
+
+    {% if article.dtc_codes or article.vehicle_refs or article.tools_used %}
+    <div class="mt-8 pt-6 border-t border-gray-800 grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+      {% if article.dtc_codes %}
+      <div>
+        <h4 class="text-xs uppercase tracking-wide text-gray-500 mb-2">DTC Codes</h4>
+        <div class="flex flex-wrap gap-1">
+          {% for code in article.dtc_codes %}<span class="px-2 py-0.5 rounded bg-red-900/40 text-red-300 font-mono text-xs">{{ code }}</span>{% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      {% if article.vehicle_refs %}
+      <div>
+        <h4 class="text-xs uppercase tracking-wide text-gray-500 mb-2">Vehicles</h4>
+        <ul class="space-y-1 text-gray-400">{% for v in article.vehicle_refs %}<li>{{ v }}</li>{% endfor %}</ul>
+      </div>
+      {% endif %}
+      {% if article.tools_used %}
+      <div>
+        <h4 class="text-xs uppercase tracking-wide text-gray-500 mb-2">Tools</h4>
+        <ul class="space-y-1 text-gray-400">{% for t in article.tools_used %}<li>{{ t }}</li>{% endfor %}</ul>
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% if article.source_url %}
+    <div class="mt-8 pt-6 border-t border-gray-800 flex items-center justify-between">
+      <div class="text-sm text-gray-400">
+        Source: <a href="{{ article.source_url }}" target="_blank" rel="noopener" class="text-blue-400 hover:underline">{{ article.source_url }}</a>
+      </div>
+      <a href="{{ article.source_url }}" target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 rounded-md bg-red-700 hover:bg-red-600 text-white px-4 py-2 text-sm font-medium transition">
+        ▶ Watch on YouTube
+      </a>
+    </div>
+    {% endif %}
+  </article>
+</div>
+{% endblock %}
