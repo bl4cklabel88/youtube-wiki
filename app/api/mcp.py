@@ -1,56 +1,53 @@
-from mcp.server.fastmcp import FastMCP
+from mcp.server import MCPServer
 from typing import Any
 import json
 import logging
 
-from ..database import get_conn, upsert_video
-from ..scraper.youtube import extract_video_id
-from ..wiki.models import Article
-from ..wiki.search import search as wiki_search
+from ..services.article_service import (
+    search_articles_service,
+    get_article_service,
+    article_to_dict,
+    list_categories_service,
+    list_channels_service,
+)
 
 logger = logging.getLogger(__name__)
 
-mcp = FastMCP("youtube-wiki", version="0.1.0")
+# Create MCP Server
+server = MCPServer("youtube-wiki", version="0.1.0")
 
-@mcp.tool()
+# Define tool functions using shared services
 def search_articles(query: str, category: str = None, tags: str = None) -> str:
     """Search the automotive diagnostic wiki knowledge base by keyword."""
-    if tags:
-        tags = tags.split(",")[0].strip()
-    results, total = wiki_search(query, category=category, tag=tags, limit=10)
-    return json.dumps({"total": total, "results": [r.__dict__ for r in results]}, default=str)
+    results, total = search_articles_service(query, category=category, tags=tags, limit=10)
+    return json.dumps({"total": total, "results": [article_to_dict(r) for r in results]}, default=str)
 
-@mcp.tool()
 def get_article(article_id: int) -> str:
     """Fetch a full wiki article by numeric ID."""
-    art = Article.get(article_id)
+    art = get_article_service(article_id)
     if not art:
         return json.dumps({"error": f"Article {article_id} not found"})
-    return json.dumps({
-        "id": art.id, "title": art.title, "slug": art.slug,
-        "category": art.category, "source_channel": art.source_channel,
-        "source_url": art.source_url, "tags": art.tags,
-        "dtc_codes": art.dtc_codes, "vehicle_refs": art.vehicle_refs,
-        "tools_used": art.tools_used, "status": art.status,
-        "content_markdown": art.content_markdown,
-    })
+    return json.dumps(article_to_dict(art, include_content=True))
 
-@mcp.tool()
 def list_categories() -> str:
     """List all article categories with counts."""
-    with get_conn() as conn:
-        rows = conn.execute(
-            "SELECT category, COUNT(*) AS count FROM articles WHERE category IS NOT NULL AND category != '' GROUP BY category ORDER BY count DESC"
-        ).fetchall()
-    return json.dumps({"categories": [dict(r) for r in rows]})
+    categories = list_categories_service()
+    return json.dumps({"categories": categories})
 
-@mcp.tool()
 def list_channels() -> str:
     """List all source channels with video counts."""
-    with get_conn() as conn:
-        rows = conn.execute(
-            "SELECT channel, COUNT(*) AS count FROM videos GROUP BY channel ORDER BY count DESC"
-        ).fetchall()
-    return json.dumps({"channels": [dict(r) for r in rows]})
+    channels = list_channels_service()
+    return json.dumps({"channels": channels})
 
-mcp_app = mcp.get_starlette_app()
+# Add tools to server
+server.add_tool(search_articles)
+server.add_tool(get_article)
+server.add_tool(list_categories)
+server.add_tool(list_channels)
+
+# Get the Starlette ASGI app.
+# streamable_http_path="/" because the ASGI dispatcher in main.py already
+# strips the /mcp prefix before forwarding to this app.  Using the default
+# "/mcp" here would cause a path mismatch and make all JSON-RPC endpoints
+# (tools/list, tools/call, initialize, etc.) unreachable.
+mcp_app = server.streamable_http_app(streamable_http_path="/")
